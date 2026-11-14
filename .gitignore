@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/gold.db
+data/_check.js
+data/collect.log
+collect.cmd
+dashboard.cmd
+run_loop.cmd
+start_monitor.vbs

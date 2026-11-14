@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>梦幻金价监控 · 老区榜</title>
+<style>
+  :root{
+    --bg:#f4f5f7; --card:#fff; --ink:#1f2329; --sub:#6b7280; --faint:#9ca3af;
+    --line:#e8eaee; --line2:#f1f3f5;
+    --up:#d4380d; --down:#389e0d; --flat:#8c8c8c;
+    --gold:#a67c00; --gold-bg:#fdf6e3;
+    --blue:#2563eb; --pink:#be185d;
+    --laopai:#b45309; --huo:#1d4ed8; --xin:#be185d;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font:13.5px/1.55 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ── header ── */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(255,255,255,.92); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line); padding:12px 22px;
+    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+  }
+  .logo{font-size:16px; font-weight:700; letter-spacing:.02em;}
+  .logo em{font-style:normal; color:var(--gold);}
+  .pill{
+    display:inline-flex; align-items:center; gap:5px;
+    padding:2px 9px; border-radius:999px; font-size:11px; font-weight:600;
+    background:#eef2ff; color:#3730a3;
+  }
+  .pill .dot{width:6px;height:6px;border-radius:50%;background:#22c55e;}
+  .pill.warn{background:#fff7ed; color:#c2410c;}
+  .hmeta{margin-left:auto; color:var(--faint); font-size:11.5px; font-variant-numeric:tabular-nums;}
+
+  .wrap{max-width:1240px; margin:0 auto; padding:18px 22px 60px;}
+
+  /* ── kpi ── */
+  .kpis{
+    display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-bottom:14px;
+  }
+  @media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr);}}
+  .kpi{
+    background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:12px 14px;
+  }
+  .kpi .v{font-size:21px; font-weight:700; font-variant-numeric:tabular-nums; line-height:1.2;}
+  .kpi .l{font-size:11px; color:var(--sub); margin-top:2px;}
+  .kpi .s{font-size:11px; color:var(--faint); margin-top:1px;}
+
+  /* ── charts ── */
+  .row{display:grid; grid-template-columns:1.2fr 1fr 1fr; gap:12px; margin-bottom:14px;}
+  @media(max-width:980px){.row{grid-template-columns:1fr;}}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:13px 15px 8px;
+  }
+  .card h3{
+    margin:0 0 6px; font-size:11.5px; font-weight:600; color:var(--sub);
+    letter-spacing:.05em; display:flex; align-items:center; gap:8px;
+  }
+  .card h3 .hint{font-weight:400; color:var(--faint); letter-spacing:0;}
+  .cv{position:relative;}
+  canvas{width:100%; height:190px; display:block;}
+  .tip{
+    position:absolute; pointer-events:none; display:none; z-index:5;
+    background:#1f2329; color:#fff; font-size:11px; line-height:1.5;
+    padding:5px 9px; border-radius:6px; white-space:nowrap;
+    transform:translate(-50%,-115%); font-variant-numeric:tabular-nums;
+  }
+
+  /* ── main: table + detail ── */
+  .main{display:grid; grid-template-columns:1.35fr 1fr; gap:12px; align-items:start;}
+  @media(max-width:980px){.main{grid-template-columns:1fr;}}
+
+  .tabs{display:flex; gap:6px; margin-bottom:10px;}
+  .tab{
+    border:1px solid var(--line); background:var(--card); color:var(--sub);
+    padding:5px 13px; border-radius:999px; font-size:12.5px; font-weight:600;
+    cursor:pointer; transition:.15s;
+  }
+  .tab:hover{border-color:#c7d2fe; color:var(--blue);}
+  .tab.on{background:var(--ink); border-color:var(--ink); color:#fff;}
+  .tab .n{opacity:.65; font-weight:500; margin-left:3px;}
+  .tools{display:flex; gap:8px; margin-bottom:10px; align-items:center;}
+  .search{
+    flex:1; border:1px solid var(--line); border-radius:8px; padding:7px 11px;
+    font-size:13px; outline:none; background:var(--card); color:var(--ink);
+  }
+  .search:focus{border-color:#93c5fd;}
+  .note{font-size:11px; color:var(--faint);}
+
+  table{width:100%; border-collapse:collapse; font-size:12.5px;}
+  th{
+    text-align:left; color:var(--faint); font-weight:600; font-size:11px;
+    padding:7px 8px; border-bottom:1px solid var(--line); cursor:pointer;
+    user-select:none; white-space:nowrap;
+  }
+  th:hover{color:var(--ink);}
+  th .ar{opacity:.45; font-size:9px;}
+  td{padding:8px 8px; border-bottom:1px solid var(--line2); white-space:nowrap;}
+  tr.r{cursor:pointer; transition:background .12s;}
+  tr.r:hover{background:#f5f7ff;}
+  tr.r.sel{background:#eef2ff;}
+  tr.r.sel td:first-child{box-shadow:inset 3px 0 0 var(--blue);}
+  .badge{
+    display:inline-block; padding:1.5px 7px; border-radius:5px;
+    font-size:10.5px; font-weight:700;
+  }
+  .badge.laopai{background:#fef3c7; color:var(--laopai);}
+  .badge.huo{background:#dbeafe; color:var(--huo);}
+  .badge.xin{background:#fce7f3; color:var(--xin);}
+  .num{font-variant-numeric:tabular-nums; font-weight:650;}
+  .up{color:var(--up);} .down{color:var(--down);} .flat{color:var(--flat);}
+  .muted{color:var(--faint);}
+  .empty{padding:36px 10px; text-align:center; color:var(--faint); font-size:12.5px;}
+
+  /* ── detail panel ── */
+  .detail{
+    position:sticky; top:64px;
+    background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:16px 18px 12px;
+  }
+  .d-head{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
+  .d-name{font-size:17px; font-weight:700;}
+  .d-price{
+    margin:10px 0 2px; font-size:34px; font-weight:700;
+    font-variant-numeric:tabular-nums; line-height:1; color:var(--gold);
+  }
+  .d-unit{font-size:11px; color:var(--faint); margin-bottom:10px;}
+  .chips{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px;}
+  .chip{
+    background:var(--bg); border:1px solid var(--line); border-radius:6px;
+    padding:3px 9px; font-size:11px; color:var(--sub); font-variant-numeric:tabular-nums;
+  }
+  .chip b{color:var(--ink); font-weight:650;}
+  .d-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+  .d-grid .full{grid-column:1/-1;}
+  .mini{border:1px solid var(--line2); border-radius:8px; padding:8px 8px 4px;}
+  .mini h4{
+    margin:0 0 2px; font-size:10.5px; font-weight:600; color:var(--faint);
+    letter-spacing:.04em;
+  }
+  .mini canvas{height:120px;}
+  .d-empty{color:var(--faint); text-align:center; padding:50px 10px;}
+
+  footer{color:var(--faint); font-size:11px; text-align:center; margin-top:26px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">梦幻<em>金价</em>监控</div>
+  <span class="pill"><span class="dot"></span>每 30 分钟自动采集</span>
+  <span class="pill warn" id="samplePill">数据积累中</span>
+  <div class="hmeta">更新 <span id="updated">--</span> · 快照 <span id="snap">--</span> · 元/3000W</div>
+</header>
+
+<div class="wrap">
+
+  <!-- KPI -->
+  <div class="kpis" id="kpis"></div>
+
+  <!-- 总计图表 -->
+  <div class="row">
+    <div class="card">
+      <h3>老区均价走势 <span class="hint">20 个老区</span></h3>
+      <div class="cv"><canvas id="cTrend"></canvas><div class="tip" id="tipTrend"></div></div>
+    </div>
+    <div class="card">
+      <h3>小时模式 <span class="hint">偏离自身均值 %</span></h3>
+      <div class="cv"><canvas id="cHour"></canvas><div class="tip" id="tipHour"></div></div>
+    </div>
+    <div class="card">
+      <h3>星期模式 <span class="hint">偏离自身均值 %</span></h3>
+      <div class="cv"><canvas id="cDow"></canvas><div class="tip" id="tipDow"></div></div>
+    </div>
+  </div>
+  <div class="note" id="insight" style="margin:-4px 2px 14px;"></div>
+
+  <!-- 每日 / 每周高低点时刻 -->
+  <div class="card" style="margin-bottom:14px;">
+    <h3>每日 / 每周金价最高最低的时刻 <span class="hint">老区均价口径 · 高点红 / 低点绿</span></h3>
+    <div style="display:grid; grid-template-columns:1.15fr 1fr; gap:16px;">
+      <div>
+        <div class="cv"><canvas id="cExt"></canvas><div class="tip"></div></div>
+        <div class="chips" id="extChips" style="margin-top:8px;"></div>
+      </div>
+      <div>
+        <table id="extTable">
+          <thead><tr><th>日期</th><th>最高（时刻）</th><th>最低（时刻）</th><th>振幅</th></tr></thead>
+          <tbody id="extBody"></tbody>
+        </table>
+        <div class="note" id="extNote" style="margin-top:6px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 表 + 详情 -->
+  <div class="main">
+    <div>
+      <div class="tabs" id="tabs">
+        <button class="tab on" data-g="old">老区榜<span class="n" id="nOld"></span></button>
+        <button class="tab" data-g="new">人气新区<span class="n" id="nNew"></span></button>
+      </div>
+      <div class="tools">
+        <input class="search" id="q" placeholder="搜索服务器 / 分组…">
+        <span class="note" id="sortNote">点表头排序</span>
+      </div>
+      <div class="card" style="padding:4px 6px 2px;">
+        <table>
+          <thead>
+            <tr>
+              <th data-k="group">组</th>
+              <th data-k="name">服务器</th>
+              <th data-k="price">金价 <span class="ar"></span></th>
+              <th data-k="change_1d">近1日 <span class="ar"></span></th>
+              <th data-k="change_7d">近7日 <span class="ar"></span></th>
+              <th data-k="vol">波动σ <span class="ar"></span></th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+        <div class="empty" id="empty" style="display:none">没有匹配的服务器</div>
+      </div>
+    </div>
+
+    <!-- 详情面板 -->
+    <div class="detail" id="detail">
+      <div class="d-empty">← 点击左侧任意服务器<br>这里显示该区独立分析</div>
+    </div>
+  </div>
+</div>
+<footer>数据仅供参考，实际以藏宝阁成交为准 · 人气新区波动剧烈，仅单独跟踪、不参与市场均价</footer>
+
+<script>
+/* ───────── 工具 ───────── */
+const fmt=(v,d=2)=>v==null?"—":Number(v).toFixed(d);
+const chg=v=>v==null?"—":(v>0?"+":"")+Number(v).toFixed(2);
+const cls=v=>v==null?"flat":v>0?"up":v<0?"down":"flat";
+const badgeCls=g=>g==="人气新区"?"xin":g==="活跃老区"?"huo":"laopai";
+
+/* ───────── 图表引擎（含悬停读数） ───────── */
+const charts={};
+function drawChart(id,labels,series,opt={}){
+  const c=document.getElementById(id);
+  if(!c) return;
+  const tipEl=c.parentElement?c.parentElement.querySelector(".tip"):null;
+  const dpr=window.devicePixelRatio||1;
+  const W=c.clientWidth, H=c.clientHeight||190;
+  c.width=W*dpr; c.height=H*dpr;
+  const ctx=c.getContext("2d"); ctx.scale(dpr,dpr);
+  ctx.clearRect(0,0,W,H);
+
+  const all=series.flatMap(s=>s.values).filter(v=>v!=null);
+  if(!all.length){
+    ctx.fillStyle="#c4c9d1"; ctx.font="12px sans-serif"; ctx.textAlign="center";
+    ctx.fillText(opt.empty||"样本不足，持续采集后自动出现",W/2,H/2);
+    charts[id]=null; return;
+  }
+  let yMin=Math.min(...all), yMax=Math.max(...all);
+  const padY=Math.max((yMax-yMin)*0.18,opt.minPad??1); yMin-=padY; yMax+=padY;
+  const pad={l:opt.padL??42,r:10,t:12,b:22};
+
+  // grid
+  ctx.strokeStyle="#eef0f3"; ctx.fillStyle="#a1a7b1"; ctx.font="10px sans-serif";
+  for(let i=0;i<=3;i++){
+    const y=pad.t+(H-pad.t-pad.b)*i/3;
+    ctx.beginPath(); ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke();
+    ctx.textAlign="left";
+    ctx.fillText((yMax-(yMax-yMin)*i/3).toFixed(opt.dec??1)+(opt.unit||""),2,y+3);
+  }
+  // x labels
+  const step=(W-pad.l-pad.r)/Math.max(1,labels.length-1);
+  ctx.textAlign="center";
+  const skip=Math.ceil(labels.length/(opt.xTicks??7));
+  labels.forEach((lb,i)=>{
+    if(i%skip && i!==labels.length-1) return;
+    ctx.fillText(lb,pad.l+step*i,H-pad.b+13);
+  });
+  const toY=v=>pad.t+(H-pad.t-pad.b)*(yMax-v)/(yMax-yMin);
+
+  // bars?
+  if(opt.bars){
+    const bw=step*0.55;
+    series.forEach(s=>{
+      s.values.forEach((v,i)=>{
+        if(v==null) return;
+        const y=toY(v), y0=toY(Math.max(yMin,Math.min(0,yMax)));
+        ctx.fillStyle=s.color;
+        ctx.globalAlpha=.85;
+        ctx.fillRect(pad.l+step*i-bw/2,Math.min(y,y0),bw,Math.max(Math.abs(y0-y),1.2));
+        ctx.globalAlpha=1;
+      });
+    });
+  }else{
+    series.forEach(s=>{
+      ctx.strokeStyle=s.color; ctx.lineWidth=2; ctx.beginPath();
+      let started=false;
+      s.values.forEach((v,i)=>{
+        if(v==null){started=false;return;}
+        const x=pad.l+step*i,y=toY(v);
+        started?ctx.lineTo(x,y):ctx.moveTo(x,y); started=true;
+      });
+      ctx.stroke();
+      ctx.fillStyle=s.color;
+      s.values.forEach((v,i)=>{
+        if(v==null) return;
+        ctx.beginPath(); ctx.arc(pad.l+step*i,toY(v),2.1,0,Math.PI*2); ctx.fill();
+      });
+    });
+  }
+  // legend
+  if(series.length>1){
+    let x=pad.l;
+    ctx.font="10px sans-serif"; ctx.textAlign="left";
+    series.forEach(s=>{
+      ctx.fillStyle=s.color; ctx.fillRect(x,pad.t-4,8,8);
+      ctx.fillStyle="#6b7280"; ctx.fillText(s.name||"",x+11,pad.t+3);
+      x+=ctx.measureText(s.name||"").width+28;
+    });
+  }
+  charts[id]={labels,series,pad,toY,step,W,H,tipEl};
+}
+
+function bindHover(id){
+  const c=document.getElementById(id);
+  if(!c||c.dataset.hoverBound) return;
+  c.dataset.hoverBound="1";
+  c.addEventListener("mousemove",e=>{
+    const st=charts[id]; if(!st||!st.tipEl) return;
+    const r=c.getBoundingClientRect();
+    const x=e.clientX-r.left;
+    const i=Math.round((x-st.pad.l)/st.step);
+    if(i<0||i>=st.labels.length){st.tipEl.style.display="none";return;}
+    const px=st.pad.l+st.step*i;
+    const lines=st.series.map(s=>{
+      const v=s.values[i];
+      return `<span style="color:${s.color}">●</span> ${s.name||"价"} <b>${fmt(v,opt_dec(v))}</b>`;
+    });
+    st.tipEl.innerHTML=`<div style="opacity:.7;margin-bottom:2px">${st.labels[i]}</div>`+lines.join("<br>");
+    st.tipEl.style.display="block";
+    st.tipEl.style.left=Math.max(48,Math.min(st.W-48,px))+"px";
+    const ys=st.series.map(s=>s.values[i]).filter(v=>v!=null);
+    st.tipEl.style.top=(ys.length?st.toY(Math.min(...ys)):40)+"px";
+  });
+  c.addEventListener("mouseleave",()=>{
+    const st=charts[id]; if(st&&st.tipEl) st.tipEl.style.display="none";
+  });
+}
+const opt_dec=v=>v!=null&&Math.abs(v)<10?2:1;
+
+["cTrend","cHour","cDow","cSHist","cSHour","cSDow"].forEach(bindHover);
+
+/* ───────── 状态 ───────── */
+let DATA=null, selected=null, tab="old", sortK="price", sortDesc=true;
+
+function render(){
+  document.getElementById("updated").textContent=DATA.updated_at;
+  document.getElementById("snap").textContent=DATA.total_snapshots;
+  const real=DATA.real_snapshots||0;
+  const pill=document.getElementById("samplePill");
+  pill.textContent = real>=200?"时段结论可用":real>=60?"数据积累中":"刚起步，先挂几天";
+  pill.className = "pill"+(real>=200?"":" warn");
+
+  const m=DATA.market||{};
+  document.getElementById("kpis").innerHTML=`
+    <div class="kpi"><div class="v" style="color:var(--gold)">${fmt(m.old_avg_price)}</div>
+      <div class="l">老区均价</div><div class="s">20 区算术平均</div></div>
+    <div class="kpi"><div class="v ${cls(m.avg_change_1d)}">${chg(m.avg_change_1d)}</div>
+      <div class="l">近 1 日均涨跌</div><div class="s">老区</div></div>
+    <div class="kpi"><div class="v ${cls(m.avg_change_7d)}">${chg(m.avg_change_7d)}</div>
+      <div class="l">近 7 日均涨跌</div><div class="s">老区</div></div>
+    <div class="kpi"><div class="v"><span class="up">${m.up_1d||0}</span><span class="muted"> 涨 / </span><span class="down">${m.down_1d||0}</span><span class="muted"> 跌</span></div>
+      <div class="l">今日家数</div><div class="s">平 ${m.flat_1d||0} 家</div></div>
+    <div class="kpi"><div class="v" style="font-size:15px;padding-top:4px">${(m.top_movers||[]).slice(0,2).map(x=>x.name.split("-").pop()).join(" · ")||"—"}</div>
+      <div class="l">近 7 日波动最大</div><div class="s">${m.top_movers&&m.top_movers[0]?chg(m.top_movers[0].change_7d):""}</div></div>`;
+
+  const ins=DATA.insights||{};
+  document.getElementById("insight").innerHTML=
+    Object.entries(ins).filter(([k])=>k!=="note").map(([,v])=>`<b style="font-weight:600">${v}</b>`).join("　·　")
+    +(ins.note?`　<span>（${ins.note}）</span>`:"");
+
+  // 每日/每周高低点
+  const ex=m.extremes||{};
+  const hours=Array.from({length:24},(_,i)=>String(i));
+  drawChart("cExt",hours.map(h=>h+"时"),[
+    {values:hours.map(h=>ex.high_hour_dist&&ex.high_hour_dist[h]?ex.high_hour_dist[h]:null),color:"#d4380d",name:"日高点次数"},
+    {values:hours.map(h=>ex.low_hour_dist&&ex.low_hour_dist[h]?ex.low_hour_dist[h]:null),color:"#389e0d",name:"日低点次数"},
+  ],{bars:true,unit:"次",dec:0,xTicks:8});
+  const t=(o)=>o?`<b>${o.label}</b> <span class="muted">(${o.count})</span>`:"—";
+  document.getElementById("extChips").innerHTML=`
+    <span class="chip">日高点常出现 ${t(ex.top_high_time)}</span>
+    <span class="chip">日低点常出现 ${t(ex.top_low_time)}</span>
+    <span class="chip">周高点常出现 ${t(ex.top_high_week)}</span>
+    <span class="chip">周低点常出现 ${t(ex.top_low_week)}</span>`;
+  const days=(ex.daily||[]).slice().reverse().slice(0,10);
+  document.getElementById("extBody").innerHTML=days.map(d=>`
+    <tr>
+      <td class="muted">${d.date.slice(5)}</td>
+      <td class="num">${fmt(d.high)} <span class="muted">@${d.high_time}</span></td>
+      <td class="num">${fmt(d.low)} <span class="muted">@${d.low_time}</span></td>
+      <td class="muted">${fmt(d.range)}</td>
+    </tr>`).join("") || `<tr><td colspan="4" class="empty">需要至少 2 天数据</td></tr>`;
+  const wk=(ex.weekly||[]).slice().reverse();
+  document.getElementById("extNote").innerHTML=wk.length
+    ? `最近一周：高点 ${wk[0].high} @${wk[0].high_time} · 低点 ${wk[0].low} @${wk[0].low_time}`
+    : "周统计需要跨周数据";
+
+  // 总计图
+  const hist=m.history||[];
+  drawChart("cTrend",hist.map(p=>p.ts.slice(5,16)),
+    [{values:hist.map(p=>p.old_avg),color:"#a67c00",name:"老区均价"}],{xTicks:6});
+  const names=["周一","周二","周三","周四","周五","周六","周日"];
+  const hd=m.hour_dev||{}, dd=m.dow_dev||{};
+  drawChart("cHour",hours.map(h=>h+"时"),
+    [{values:hours.map(h=>hd[h]?hd[h].avg:null),color:"#d4380d",name:"偏离%"}],{unit:"%",xTicks:8});
+  drawChart("cDow",names,
+    [{values:names.map((_,i)=>dd[String(i+1)]?dd[String(i+1)].avg:null),color:"#2563eb",name:"偏离%"}],
+    {unit:"%",bars:true,xTicks:7});
+
+  renderTable();
+  renderDetail();
+}
+
+function listFor(){
+  let arr=DATA.servers.filter(s=>tab==="old"?s.group!=="人气新区":s.group==="人气新区");
+  const q=document.getElementById("q").value.trim();
+  if(q) arr=arr.filter(s=>s.name.includes(q)||s.group.includes(q));
+  const key=s=>sortK==="vol"?(s.volatility?s.volatility.std:null):s[sortK];
+  arr.sort((a,b)=>{
+    const x=key(a),y=key(b);
+    if(typeof x==="string") return sortDesc?String(y).localeCompare(String(x)):String(x).localeCompare(String(y));
+    return sortDesc?(y??-1e9)-(x??-1e9):(x??-1e9)-(y??-1e9);
+  });
+  return arr;
+}
+
+function renderTable(){
+  const arr=listFor();
+  document.getElementById("nOld").textContent=DATA.servers.filter(s=>s.group!=="人气新区").length;
+  document.getElementById("nNew").textContent=DATA.servers.filter(s=>s.group==="人气新区").length;
+  document.getElementById("tbody").innerHTML=arr.map(s=>`
+    <tr class="r ${selected===s.name?"sel":""}" data-n="${s.name}">
+      <td><span class="badge ${badgeCls(s.group)}">${s.group}</span></td>
+      <td>${s.name}</td>
+      <td class="num">${fmt(s.price)}</td>
+      <td class="${cls(s.change_1d)}">${chg(s.change_1d)}</td>
+      <td class="${cls(s.change_7d)}">${chg(s.change_7d)}</td>
+      <td class="muted">${fmt(s.volatility&&s.volatility.std)}</td>
+    </tr>`).join("");
+  document.getElementById("empty").style.display=arr.length?"none":"block";
+  document.querySelectorAll("tr.r").forEach(tr=>{
+    tr.onclick=()=>{ selected=tr.dataset.n; renderTable(); renderDetail();
+      if(window.innerWidth<=980) document.getElementById("detail").scrollIntoView({behavior:"smooth",block:"start"});
+    };
+  });
+}
+
+function renderDetail(){
+  const box=document.getElementById("detail");
+  const s=DATA.servers.find(x=>x.name===selected);
+  if(!s){ box.innerHTML=`<div class="d-empty">← 点击左侧任意服务器<br>这里显示该区独立分析</div>`; return; }
+  const v=s.volatility||{};
+  const ex=s.extremes||{};
+  box.innerHTML=`
+    <div class="d-head">
+      <div class="d-name">${s.name}</div>
+      <span class="badge ${badgeCls(s.group)}">${s.group}</span>
+    </div>
+    <div class="d-price">${fmt(s.price)}</div>
+    <div class="d-unit">元 / 3000W 梦幻币</div>
+    <div class="chips">
+      <span class="chip">近1日 <b class="${cls(s.change_1d)}">${chg(s.change_1d)}</b></span>
+      <span class="chip">近7日 <b class="${cls(s.change_7d)}">${chg(s.change_7d)}</b></span>
+      <span class="chip">波动 σ <b>${fmt(v.std)}</b></span>
+      <span class="chip">区间 <b>${fmt(v.low)}–${fmt(v.high)}</b></span>
+      ${v.daily_range_avg!=null?`<span class="chip">日均振幅 <b>${fmt(v.daily_range_avg)}</b></span>`:""}
+      <span class="chip">样本 <b>${s.sample_count}</b></span>
+      ${ex&&ex.top_high_time?`<span class="chip">日高点常 <b>${ex.top_high_time.label}</b></span>`:""}
+      ${ex&&ex.top_low_time?`<span class="chip">日低点常 <b>${ex.top_low_time.label}</b></span>`:""}
+      ${ex&&ex.top_high_week?`<span class="chip">周高点常 <b>${ex.top_high_week.label}</b></span>`:""}
+      ${ex&&ex.top_low_week?`<span class="chip">周低点常 <b>${ex.top_low_week.label}</b></span>`:""}
+    </div>
+    <div class="d-grid">
+      <div class="mini full"><h4>该区价格曲线</h4><div class="cv"><canvas id="cSHist"></canvas><div class="tip"></div></div></div>
+      <div class="mini"><h4>该区 · 小时</h4><div class="cv"><canvas id="cSHour"></canvas><div class="tip"></div></div></div>
+      <div class="mini"><h4>该区 · 星期</h4><div class="cv"><canvas id="cSDow"></canvas><div class="tip"></div></div></div>
+    </div>`;
+  const col=s.group==="人气新区"?"#be185d":s.group==="活跃老区"?"#2563eb":"#a67c00";
+  drawChart("cSHist",s.history.map(p=>p.ts.slice(5,16)),
+    [{values:s.history.map(p=>p.price),color:col,name:"金价"}],{xTicks:5,padL:38});
+  const hs=s.hour_stats||{}, ds=s.dow_stats||{};
+  drawChart("cSHour",hoursArr().map(h=>h+"时"),
+    [{values:hoursArr().map(h=>hs[h]?hs[h].avg:null),color:col,name:"价"}],{xTicks:5,padL:38});
+  drawChart("cSDow",namesArr(),
+    [{values:namesArr().map((_,i)=>ds[String(i+1)]?ds[String(i+1)].avg:null),color:col,name:"价"}],
+    {xTicks:7,bars:true,padL:38});
+  ["cSHist","cSHour","cSDow"].forEach(bindHover);
+}
+const hoursArr=()=>Array.from({length:24},(_,i)=>i);
+const namesArr=()=>["周一","周二","周三","周四","周五","周六","周日"];
+
+/* ───────── 事件 ───────── */
+document.getElementById("tabs").addEventListener("click",e=>{
+  const b=e.target.closest(".tab"); if(!b) return;
+  tab=b.dataset.g;
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t===b));
+  renderTable();
+});
+document.getElementById("q").addEventListener("input",renderTable);
+document.querySelectorAll("th[data-k]").forEach(th=>{
+  th.onclick=()=>{
+    const k=th.dataset.k;
+    if(sortK===k) sortDesc=!sortDesc; else {sortK=k; sortDesc=true;}
+    document.querySelectorAll("th .ar").forEach(a=>a.textContent="");
+    th.querySelector(".ar").textContent=sortDesc?"▼":"▲";
+    renderTable();
+  };
+});
+
+async function load(){
+  try{
+    const r=await fetch("data/dashboard_data.json?t="+Date.now());
+    DATA=await r.json();
+    if(!selected&&DATA.servers.length) selected=DATA.servers.find(s=>s.group!=="人气新区")?.name||DATA.servers[0].name;
+    render();
+  }catch(e){
+    document.getElementById("kpis").innerHTML=
+      `<div class="kpi" style="grid-column:1/-1"><div class="l">无法加载 data/dashboard_data.json —— 请先运行 <b>python run_cycle.py</b></div></div>`;
+  }
+}
+load();
+setInterval(load,60000);
+window.addEventListener("resize",()=>render());
+</script>
+</body>
+</html>
