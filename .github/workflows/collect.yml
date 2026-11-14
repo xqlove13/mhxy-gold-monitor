@@ -2,8 +2,8 @@ name: 梦幻金价采集
 
 on:
   schedule:
-    # 每小时的 05 和 35 分各跑一次（≈每 30 分钟），错开整点高峰
-    - cron: '5,35 * * * *'
+    # 每小时 08 分、38 分各跑一次（错开整点高峰，避开 GitHub 调度延迟）
+    - cron: '8,38 * * * *'
   workflow_dispatch:
 
 permissions:
