@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-15 09:49:25",
+ "updated_at": "2026-11-15 09:49:43",
  "total_snapshots": 1005,
  "real_snapshots": 911,
  "span_days": 2,
@@ -10229,6 +10229,7 @@
  ],
  "insights": {
   "note": "时段结论至少需要 3~7 天持续采集才稳定",
+  "flat": "近两日全市场横盘（价格无变动），高/低点时刻暂无参考意义",
   "price_peak_hour": "全市场 00:00 前后相对最高（+0.0%）",
   "price_trough_hour": "全市场 00:00 前后相对最低（0.0%）",
   "price_peak_dow": "周六 相对最高（+0.0%）",
