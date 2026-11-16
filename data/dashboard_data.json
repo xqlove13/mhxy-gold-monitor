@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-16 09:53:27",
- "total_snapshots": 1140,
- "real_snapshots": 1046,
+ "updated_at": "2026-11-16 17:28:47",
+ "total_snapshots": 1167,
+ "real_snapshots": 1073,
  "market": {
-  "old_avg_price": 206.28,
-  "avg_change_1d": -0.87,
-  "avg_change_7d": -1.92,
-  "up_1d": 4,
-  "down_1d": 16,
-  "flat_1d": 0,
+  "old_avg_price": 206.74,
+  "avg_change_1d": 0.47,
+  "avg_change_7d": -1.37,
+  "up_1d": 12,
+  "down_1d": 6,
+  "flat_1d": 2,
   "history": [
    {
     "ts": "2026-11-14 13:52:33",
@@ -165,6 +165,10 @@
    {
     "ts": "2026-11-16 09:53:27",
     "old_avg": 206.28
+   },
+   {
+    "ts": "2026-11-16 17:28:47",
+    "old_avg": 206.74
    }
   ],
   "extremes": {
@@ -191,13 +195,13 @@
     },
     {
      "date": "2026-11-16",
-     "high": 206.28000000000003,
-     "high_time": "00:59",
-     "high_hour": 0,
+     "high": 206.74499999999998,
+     "high_time": "17:28",
+     "high_hour": 17,
      "low": 206.28000000000003,
      "low_time": "00:59",
      "low_hour": 0,
-     "range": 0.0
+     "range": 0.46
     }
    ],
    "weekly": [
@@ -211,16 +215,17 @@
     },
     {
      "week": "2026-W47",
-     "high": 206.28000000000003,
-     "high_time": "周一 00:59",
+     "high": 206.74499999999998,
+     "high_time": "周一 17:28",
      "low": 206.28000000000003,
      "low_time": "周一 00:59",
-     "range": 0.0
+     "range": 0.46
     }
    ],
    "high_hour_dist": {
-    "0": 2,
-    "13": 1
+    "0": 1,
+    "13": 1,
+    "17": 1
    },
    "low_hour_dist": {
     "0": 1,
@@ -236,8 +241,8 @@
     "7": 1
    },
    "top_high_time": {
-    "label": "00:00",
-    "count": 2
+    "label": "13:00",
+    "count": 1
    },
    "top_low_time": {
     "label": "13:00",
@@ -255,146 +260,146 @@
   "hour_dev": {
    "0": {
     "avg": -0.12,
-    "min": -2.1,
-    "max": 0.39,
+    "min": -2.09,
+    "max": 0.38,
     "count": 81
    },
    "1": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 54
    },
    "2": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 81
    },
    "3": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 54
    },
    "4": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 54
    },
    "5": {
     "avg": -0.12,
-    "min": -2.1,
-    "max": 0.39,
+    "min": -2.09,
+    "max": 0.38,
     "count": 81
    },
    "6": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 81
    },
    "7": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 54
    },
    "8": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 54
    },
    "9": {
     "avg": -0.12,
-    "min": -2.1,
-    "max": 0.39,
+    "min": -2.09,
+    "max": 0.38,
     "count": 81
    },
    "10": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 27
    },
    "13": {
-    "avg": 0.04,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.05,
+    "min": -0.07,
+    "max": 0.38,
     "count": 47
    },
    "14": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 135
    },
    "17": {
-    "avg": -0.23,
-    "min": -4.14,
-    "max": 0.93,
-    "count": 27
+    "avg": -0.28,
+    "min": -4.06,
+    "max": 1.17,
+    "count": 54
    },
    "20": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 54
    },
    "23": {
-    "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "avg": 0.06,
+    "min": -0.07,
+    "max": 0.38,
     "count": 81
    }
   },
   "dow_dev": {
    "1": {
-    "avg": -0.47,
-    "min": -2.1,
-    "max": 0.39,
-    "count": 81
+    "avg": -0.43,
+    "min": -3.24,
+    "max": 1.17,
+    "count": 108
    },
    "6": {
     "avg": 0.05,
-    "min": -0.05,
-    "max": 0.3,
+    "min": -0.07,
+    "max": 0.38,
     "count": 317
    },
    "7": {
     "avg": 0.04,
-    "min": -4.14,
-    "max": 0.93,
+    "min": -4.06,
+    "max": 0.91,
     "count": 648
    }
   },
   "top_movers": [
    {
-    "name": "浙江1区-台州湾",
+    "name": "无与伦比-兰亭序",
     "group": "老牌火区",
-    "change_7d": 15.27
+    "change_7d": -5.16
    },
    {
-    "name": "北京1区-2008",
+    "name": "北京1区-紫禁城",
     "group": "老牌火区",
-    "change_7d": -7.75
+    "change_7d": -3.97
    },
    {
     "name": "北京1区-太和殿",
     "group": "活跃老区",
-    "change_7d": -6.59
+    "change_7d": -3.59
+   },
+   {
+    "name": "浙江2区-灵隐寺",
+    "group": "活跃老区",
+    "change_7d": 3.34
    },
    {
     "name": "北京1区-生日快乐",
     "group": "老牌火区",
-    "change_7d": -3.89
-   },
-   {
-    "name": "江苏1区-文昌阁",
-    "group": "活跃老区",
-    "change_7d": -3.68
+    "change_7d": -3.29
    }
   ]
  },
@@ -402,13 +407,13 @@
   {
    "name": "浙江4区-绍兴兰亭",
    "group": "老牌火区",
-   "price": 213.9,
-   "change_1d": -0.91,
-   "change_7d": -1.91,
-   "sample_count": 39,
+   "price": 214.5,
+   "change_1d": 0.6,
+   "change_7d": -0.31,
+   "sample_count": 40,
    "volatility": {
     "std": 0.27,
-    "daily_range_avg": 0.23,
+    "daily_range_avg": 0.43,
     "high": 215.51,
     "low": 213.9
    },
@@ -436,13 +441,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 213.9,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 214.5,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 213.9,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 0.6
      }
     ],
     "weekly": [
@@ -456,17 +461,16 @@
      },
      {
       "week": "2026-W47",
-      "high": 213.9,
-      "high_time": "周一 00:59",
+      "high": 214.5,
+      "high_time": "周一 17:28",
       "low": 213.9,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 0.6
      }
     ],
     "high_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "low_hour_dist": {
      "0": 2,
@@ -481,8 +485,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_low_time": {
      "label": "00:00",
@@ -577,10 +581,10 @@
      "count": 5
     },
     "17": {
-     "avg": 215.51,
-     "min": 215.51,
+     "avg": 215.0,
+     "min": 214.5,
      "max": 215.51,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 214.81,
@@ -597,10 +601,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 213.9,
+     "avg": 214.05,
      "min": 213.9,
-     "max": 213.9,
-     "count": 3
+     "max": 214.5,
+     "count": 4
     },
     "6": {
      "avg": 214.81,
@@ -830,19 +834,24 @@
      "ts": "2026-11-16 09:53:27",
      "price": 213.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 214.5,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "北京1区-生日快乐",
    "group": "老牌火区",
-   "price": 210.0,
-   "change_1d": -1.99,
-   "change_7d": -3.89,
-   "sample_count": 39,
+   "price": 210.6,
+   "change_1d": 0.6,
+   "change_7d": -3.29,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.53,
-    "daily_range_avg": 0.0,
+    "std": 0.56,
+    "daily_range_avg": 0.2,
     "high": 211.99,
     "low": 210.0
    },
@@ -870,13 +879,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 210.0,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 210.6,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 210.0,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 0.6
      }
     ],
     "weekly": [
@@ -890,16 +899,17 @@
      },
      {
       "week": "2026-W47",
-      "high": 210.0,
-      "high_time": "周一 00:59",
+      "high": 210.6,
+      "high_time": "周一 17:28",
       "low": 210.0,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 0.6
      }
     ],
     "high_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "low_hour_dist": {
      "0": 2,
@@ -914,8 +924,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_low_time": {
      "label": "00:00",
@@ -1010,10 +1020,10 @@
      "count": 5
     },
     "17": {
-     "avg": 211.99,
-     "min": 211.99,
+     "avg": 211.3,
+     "min": 210.6,
      "max": 211.99,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 211.99,
@@ -1030,10 +1040,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 210.0,
+     "avg": 210.15,
      "min": 210.0,
-     "max": 210.0,
-     "count": 3
+     "max": 210.6,
+     "count": 4
     },
     "6": {
      "avg": 211.99,
@@ -1263,21 +1273,26 @@
      "ts": "2026-11-16 09:53:27",
      "price": 210.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 210.6,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "无与伦比-兰亭序",
    "group": "老牌火区",
-   "price": 210.0,
-   "change_1d": -1.96,
-   "change_7d": -2.46,
-   "sample_count": 39,
+   "price": 209.1,
+   "change_1d": -0.9,
+   "change_7d": -5.16,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.52,
-    "daily_range_avg": 0.17,
+    "std": 0.67,
+    "daily_range_avg": 0.47,
     "high": 211.96,
-    "low": 210.0
+    "low": 209.1
    },
    "extremes": {
     "daily": [
@@ -1306,10 +1321,10 @@
       "high": 210.0,
       "high_time": "00:59",
       "high_hour": 0,
-      "low": 210.0,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
+      "low": 209.1,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 0.9
      }
     ],
     "weekly": [
@@ -1325,9 +1340,9 @@
       "week": "2026-W47",
       "high": 210.0,
       "high_time": "周一 00:59",
-      "low": 210.0,
-      "low_time": "周一 00:59",
-      "range": 0.0
+      "low": 209.1,
+      "low_time": "周一 17:28",
+      "range": 0.9
      }
     ],
     "high_hour_dist": {
@@ -1335,9 +1350,8 @@
      "13": 1
     },
     "low_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "high_dow_dist": {
      "1": 1,
@@ -1352,8 +1366,8 @@
      "count": 2
     },
     "top_low_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_high_week": {
      "label": "周六",
@@ -1444,10 +1458,10 @@
      "count": 5
     },
     "17": {
-     "avg": 211.46,
-     "min": 211.46,
+     "avg": 210.28,
+     "min": 209.1,
      "max": 211.46,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 211.96,
@@ -1464,10 +1478,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 210.0,
-     "min": 210.0,
+     "avg": 209.78,
+     "min": 209.1,
      "max": 210.0,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 211.96,
@@ -1697,21 +1711,26 @@
      "ts": "2026-11-16 09:53:27",
      "price": 210.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 209.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "四川1区-成都府",
    "group": "老牌火区",
-   "price": 210.0,
-   "change_1d": -0.38,
-   "change_7d": -0.38,
-   "sample_count": 39,
+   "price": 209.1,
+   "change_1d": -0.9,
+   "change_7d": -0.68,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.13,
-    "daily_range_avg": 0.17,
+    "std": 0.23,
+    "daily_range_avg": 0.47,
     "high": 210.38,
-    "low": 209.88
+    "low": 209.1
    },
    "extremes": {
     "daily": [
@@ -1740,10 +1759,10 @@
       "high": 210.0,
       "high_time": "00:59",
       "high_hour": 0,
-      "low": 210.0,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
+      "low": 209.1,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 0.9
      }
     ],
     "weekly": [
@@ -1759,9 +1778,9 @@
       "week": "2026-W47",
       "high": 210.0,
       "high_time": "周一 00:59",
-      "low": 210.0,
-      "low_time": "周一 00:59",
-      "range": 0.0
+      "low": 209.1,
+      "low_time": "周一 17:28",
+      "range": 0.9
      }
     ],
     "high_hour_dist": {
@@ -1769,9 +1788,8 @@
      "13": 1
     },
     "low_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "high_dow_dist": {
      "1": 1,
@@ -1786,8 +1804,8 @@
      "count": 2
     },
     "top_low_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_high_week": {
      "label": "周六",
@@ -1878,10 +1896,10 @@
      "count": 5
     },
     "17": {
-     "avg": 209.88,
-     "min": 209.88,
+     "avg": 209.49,
+     "min": 209.1,
      "max": 209.88,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 210.38,
@@ -1898,10 +1916,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 210.0,
-     "min": 210.0,
+     "avg": 209.78,
+     "min": 209.1,
      "max": 210.0,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 210.38,
@@ -2131,439 +2149,10 @@
      "ts": "2026-11-16 09:53:27",
      "price": 210.0,
      "source": "3jiebanzhuan"
-    }
-   ]
-  },
-  {
-   "name": "北京1区-紫禁城",
-   "group": "老牌火区",
-   "price": 208.8,
-   "change_1d": -0.47,
-   "change_7d": -2.87,
-   "sample_count": 39,
-   "volatility": {
-    "std": 0.21,
-    "daily_range_avg": 0.33,
-    "high": 210.27,
-    "low": 208.8
-   },
-   "extremes": {
-    "daily": [
-     {
-      "date": "2026-11-14",
-      "high": 209.27,
-      "high_time": "13:52",
-      "high_hour": 13,
-      "low": 209.27,
-      "low_time": "13:52",
-      "low_hour": 13,
-      "range": 0.0
-     },
-     {
-      "date": "2026-11-15",
-      "high": 210.27,
-      "high_time": "17:50",
-      "high_hour": 17,
-      "low": 209.27,
-      "low_time": "00:05",
-      "low_hour": 0,
-      "range": 1.0
-     },
-     {
-      "date": "2026-11-16",
-      "high": 208.8,
-      "high_time": "00:59",
-      "high_hour": 0,
-      "low": 208.8,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
-     }
-    ],
-    "weekly": [
-     {
-      "week": "2026-W46",
-      "high": 210.27,
-      "high_time": "周日 17:50",
-      "low": 209.27,
-      "low_time": "周六 13:52",
-      "range": 1.0
-     },
-     {
-      "week": "2026-W47",
-      "high": 208.8,
-      "high_time": "周一 00:59",
-      "low": 208.8,
-      "low_time": "周一 00:59",
-      "range": 0.0
-     }
-    ],
-    "high_hour_dist": {
-     "0": 1,
-     "13": 1,
-     "17": 1
-    },
-    "low_hour_dist": {
-     "0": 2,
-     "13": 1
-    },
-    "high_dow_dist": {
-     "1": 1,
-     "7": 1
-    },
-    "low_dow_dist": {
-     "1": 1,
-     "6": 1
-    },
-    "top_high_time": {
-     "label": "13:00",
-     "count": 1
-    },
-    "top_low_time": {
-     "label": "00:00",
-     "count": 2
-    },
-    "top_high_week": {
-     "label": "周日",
-     "count": 1
-    },
-    "top_low_week": {
-     "label": "周六",
-     "count": 1
-    }
-   },
-   "hour_stats": {
-    "0": {
-     "avg": 209.11,
-     "min": 208.8,
-     "max": 209.27,
-     "count": 3
-    },
-    "1": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 2
-    },
-    "2": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 3
-    },
-    "3": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 2
-    },
-    "4": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 2
-    },
-    "5": {
-     "avg": 209.11,
-     "min": 208.8,
-     "max": 209.27,
-     "count": 3
-    },
-    "6": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 3
-    },
-    "7": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 2
-    },
-    "8": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 2
-    },
-    "9": {
-     "avg": 209.11,
-     "min": 208.8,
-     "max": 209.27,
-     "count": 3
-    },
-    "10": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 1
-    },
-    "13": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 2
-    },
-    "14": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 5
-    },
-    "17": {
-     "avg": 210.27,
-     "min": 210.27,
-     "max": 210.27,
-     "count": 1
-    },
-    "20": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 2
-    },
-    "23": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 3
-    }
-   },
-   "dow_stats": {
-    "1": {
-     "avg": 208.8,
-     "min": 208.8,
-     "max": 208.8,
-     "count": 3
-    },
-    "6": {
-     "avg": 209.27,
-     "min": 209.27,
-     "max": 209.27,
-     "count": 12
-    },
-    "7": {
-     "avg": 209.31,
-     "min": 209.27,
-     "max": 210.27,
-     "count": 24
-    }
-   },
-   "history": [
-    {
-     "ts": "2026-11-07 13:52:33",
-     "price": 212.37,
-     "source": "backfill"
     },
     {
-     "ts": "2026-11-07 13:57:36",
-     "price": 212.37,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:52:33",
-     "price": 210.27,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:57:36",
-     "price": 210.27,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-14 13:52:33",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 13:57:36",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:08:54",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:10:51",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:24:45",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:40:54",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:54:19",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:43:38",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:45:04",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:32:41",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:34:22",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:35:33",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:05:45",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:35:56",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:06:07",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:36:18",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:06:31",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:36:41",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:43:14",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:06:51",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:37:05",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:07:16",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:37:24",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:07:33",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:37:42",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:07:51",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:38:00",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:56:14",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:08:10",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:38:22",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:08:31",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:38:40",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:08:49",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:39:00",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 10:33:15",
-     "price": 209.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 17:50:42",
-     "price": 210.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 00:59:04",
-     "price": 208.8,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 05:40:50",
-     "price": 208.8,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 09:53:27",
-     "price": 208.8,
+     "ts": "2026-11-16 17:28:47",
+     "price": 209.1,
      "source": "3jiebanzhuan"
     }
    ]
@@ -2571,14 +2160,14 @@
   {
    "name": "浙江1区-台州湾",
    "group": "老牌火区",
-   "price": 207.0,
-   "change_1d": 0.37,
-   "change_7d": 15.27,
-   "sample_count": 39,
+   "price": 207.6,
+   "change_1d": 0.6,
+   "change_7d": 2.67,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.31,
-    "daily_range_avg": 0.6,
-    "high": 207.0,
+    "std": 0.34,
+    "daily_range_avg": 0.8,
+    "high": 207.6,
     "low": 204.83
    },
    "extremes": {
@@ -2605,13 +2194,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 207.0,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 207.6,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 207.0,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 0.6
      }
     ],
     "weekly": [
@@ -2625,16 +2214,17 @@
      },
      {
       "week": "2026-W47",
-      "high": 207.0,
-      "high_time": "周一 00:59",
+      "high": 207.6,
+      "high_time": "周一 17:28",
       "low": 207.0,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 0.6
      }
     ],
     "high_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "low_hour_dist": {
      "0": 1,
@@ -2650,8 +2240,8 @@
      "7": 1
     },
     "top_high_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_low_time": {
      "label": "13:00",
@@ -2746,10 +2336,10 @@
      "count": 5
     },
     "17": {
-     "avg": 204.83,
+     "avg": 206.22,
      "min": 204.83,
-     "max": 204.83,
-     "count": 1
+     "max": 207.6,
+     "count": 2
     },
     "20": {
      "avg": 206.63,
@@ -2766,10 +2356,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 207.0,
+     "avg": 207.15,
      "min": 207.0,
-     "max": 207.0,
-     "count": 3
+     "max": 207.6,
+     "count": 4
     },
     "6": {
      "avg": 206.63,
@@ -2999,76 +2589,82 @@
      "ts": "2026-11-16 09:53:27",
      "price": 207.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 207.6,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
-   "name": "无与伦比-将军",
+   "name": "北京1区-紫禁城",
    "group": "老牌火区",
-   "price": 206.1,
-   "change_1d": -0.61,
-   "change_7d": -2.51,
-   "sample_count": 39,
+   "price": 207.0,
+   "change_1d": -1.8,
+   "change_7d": -3.97,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.18,
-    "daily_range_avg": 0.17,
-    "high": 206.71,
-    "low": 206.1
+    "std": 0.41,
+    "daily_range_avg": 0.93,
+    "high": 210.27,
+    "low": 207.0
    },
    "extremes": {
     "daily": [
      {
       "date": "2026-11-14",
-      "high": 206.71,
+      "high": 209.27,
       "high_time": "13:52",
       "high_hour": 13,
-      "low": 206.71,
+      "low": 209.27,
       "low_time": "13:52",
       "low_hour": 13,
       "range": 0.0
      },
      {
       "date": "2026-11-15",
-      "high": 206.71,
-      "high_time": "00:05",
-      "high_hour": 0,
-      "low": 206.21,
-      "low_time": "17:50",
-      "low_hour": 17,
-      "range": 0.5
+      "high": 210.27,
+      "high_time": "17:50",
+      "high_hour": 17,
+      "low": 209.27,
+      "low_time": "00:05",
+      "low_hour": 0,
+      "range": 1.0
      },
      {
       "date": "2026-11-16",
-      "high": 206.1,
+      "high": 208.8,
       "high_time": "00:59",
       "high_hour": 0,
-      "low": 206.1,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
+      "low": 207.0,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 1.8
      }
     ],
     "weekly": [
      {
       "week": "2026-W46",
-      "high": 206.71,
-      "high_time": "周六 13:52",
-      "low": 206.21,
-      "low_time": "周日 17:50",
-      "range": 0.5
+      "high": 210.27,
+      "high_time": "周日 17:50",
+      "low": 209.27,
+      "low_time": "周六 13:52",
+      "range": 1.0
      },
      {
       "week": "2026-W47",
-      "high": 206.1,
+      "high": 208.8,
       "high_time": "周一 00:59",
-      "low": 206.1,
-      "low_time": "周一 00:59",
-      "range": 0.0
+      "low": 207.0,
+      "low_time": "周一 17:28",
+      "range": 1.8
      }
     ],
     "high_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "low_hour_dist": {
      "0": 1,
@@ -3077,361 +2673,366 @@
     },
     "high_dow_dist": {
      "1": 1,
-     "6": 1
+     "7": 1
     },
     "low_dow_dist": {
      "1": 1,
-     "7": 1
+     "6": 1
     },
     "top_high_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_low_time": {
      "label": "13:00",
      "count": 1
     },
     "top_high_week": {
-     "label": "周六",
+     "label": "周日",
      "count": 1
     },
     "top_low_week": {
-     "label": "周日",
+     "label": "周六",
      "count": 1
     }
    },
    "hour_stats": {
     "0": {
-     "avg": 206.51,
-     "min": 206.1,
-     "max": 206.71,
+     "avg": 209.11,
+     "min": 208.8,
+     "max": 209.27,
      "count": 3
     },
     "1": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 2
     },
     "2": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 3
     },
     "3": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 2
     },
     "4": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 2
     },
     "5": {
-     "avg": 206.51,
-     "min": 206.1,
-     "max": 206.71,
+     "avg": 209.11,
+     "min": 208.8,
+     "max": 209.27,
      "count": 3
     },
     "6": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 3
     },
     "7": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 2
     },
     "8": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 2
     },
     "9": {
-     "avg": 206.51,
-     "min": 206.1,
-     "max": 206.71,
+     "avg": 209.11,
+     "min": 208.8,
+     "max": 209.27,
      "count": 3
     },
     "10": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 1
     },
     "13": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 2
     },
     "14": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 5
     },
     "17": {
-     "avg": 206.21,
-     "min": 206.21,
-     "max": 206.21,
-     "count": 1
+     "avg": 208.63,
+     "min": 207.0,
+     "max": 210.27,
+     "count": 2
     },
     "20": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 2
     },
     "23": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 3
     }
    },
    "dow_stats": {
     "1": {
-     "avg": 206.1,
-     "min": 206.1,
-     "max": 206.1,
-     "count": 3
+     "avg": 208.35,
+     "min": 207.0,
+     "max": 208.8,
+     "count": 4
     },
     "6": {
-     "avg": 206.71,
-     "min": 206.71,
-     "max": 206.71,
+     "avg": 209.27,
+     "min": 209.27,
+     "max": 209.27,
      "count": 12
     },
     "7": {
-     "avg": 206.69,
-     "min": 206.21,
-     "max": 206.71,
+     "avg": 209.31,
+     "min": 209.27,
+     "max": 210.27,
      "count": 24
     }
    },
    "history": [
     {
      "ts": "2026-11-07 13:52:33",
-     "price": 209.61,
+     "price": 212.37,
      "source": "backfill"
     },
     {
      "ts": "2026-11-07 13:57:36",
-     "price": 209.61,
+     "price": 212.37,
      "source": "backfill"
     },
     {
      "ts": "2026-11-13 13:52:33",
-     "price": 206.61,
+     "price": 210.27,
      "source": "backfill"
     },
     {
      "ts": "2026-11-13 13:57:36",
-     "price": 206.61,
+     "price": 210.27,
      "source": "backfill"
     },
     {
      "ts": "2026-11-14 13:52:33",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 13:57:36",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 14:08:54",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 14:10:51",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 14:24:45",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 14:40:54",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 14:54:19",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 20:43:38",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 20:45:04",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 23:32:41",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 23:34:22",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-14 23:35:33",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 00:05:45",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 00:35:56",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 01:06:07",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 01:36:18",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 02:06:31",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 02:36:41",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 02:43:14",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 03:06:51",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 03:37:05",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 04:07:16",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 04:37:24",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 05:07:33",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 05:37:42",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 06:07:51",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 06:38:00",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 06:56:14",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 07:08:10",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 07:38:22",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 08:08:31",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 08:38:40",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 09:08:49",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 09:39:00",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 10:33:15",
-     "price": 206.71,
+     "price": 209.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-15 17:50:42",
-     "price": 206.21,
+     "price": 210.27,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-16 00:59:04",
-     "price": 206.1,
+     "price": 208.8,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-16 05:40:50",
-     "price": 206.1,
+     "price": 208.8,
      "source": "3jiebanzhuan"
     },
     {
      "ts": "2026-11-16 09:53:27",
-     "price": 206.1,
+     "price": 208.8,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 207.0,
      "source": "3jiebanzhuan"
     }
    ]
@@ -3439,13 +3040,13 @@
   {
    "name": "华南区-钓鱼岛",
    "group": "老牌火区",
-   "price": 204.6,
-   "change_1d": -0.66,
-   "change_7d": -1.86,
-   "sample_count": 39,
+   "price": 206.1,
+   "change_1d": 1.5,
+   "change_7d": -0.36,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.25,
-    "daily_range_avg": 0.37,
+    "std": 0.28,
+    "daily_range_avg": 0.87,
     "high": 206.36,
     "low": 204.6
    },
@@ -3473,13 +3074,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 204.6,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 206.1,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 204.6,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 1.5
      }
     ],
     "weekly": [
@@ -3493,17 +3094,16 @@
      },
      {
       "week": "2026-W47",
-      "high": 204.6,
-      "high_time": "周一 00:59",
+      "high": 206.1,
+      "high_time": "周一 17:28",
       "low": 204.6,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 1.5
      }
     ],
     "high_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "low_hour_dist": {
      "0": 2,
@@ -3518,8 +3118,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_low_time": {
      "label": "00:00",
@@ -3614,10 +3214,10 @@
      "count": 5
     },
     "17": {
-     "avg": 206.36,
-     "min": 206.36,
+     "avg": 206.23,
+     "min": 206.1,
      "max": 206.36,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 205.26,
@@ -3634,10 +3234,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 204.6,
+     "avg": 204.97,
      "min": 204.6,
-     "max": 204.6,
-     "count": 3
+     "max": 206.1,
+     "count": 4
     },
     "6": {
      "avg": 205.26,
@@ -3867,19 +3467,24 @@
      "ts": "2026-11-16 09:53:27",
      "price": 204.6,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 206.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "北京1区-国子监",
    "group": "老牌火区",
-   "price": 204.0,
-   "change_1d": 0.68,
-   "change_7d": -3.32,
-   "sample_count": 39,
+   "price": 204.9,
+   "change_1d": 0.9,
+   "change_7d": 0.58,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.36,
-    "daily_range_avg": 0.67,
+    "std": 0.42,
+    "daily_range_avg": 0.97,
     "high": 205.32,
     "low": 203.32
    },
@@ -3907,13 +3512,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 204.0,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 204.9,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 204.0,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 0.9
      }
     ],
     "weekly": [
@@ -3927,17 +3532,16 @@
      },
      {
       "week": "2026-W47",
-      "high": 204.0,
-      "high_time": "周一 00:59",
+      "high": 204.9,
+      "high_time": "周一 17:28",
       "low": 204.0,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 0.9
      }
     ],
     "high_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "low_hour_dist": {
      "0": 2,
@@ -3952,8 +3556,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_low_time": {
      "label": "00:00",
@@ -4048,10 +3652,10 @@
      "count": 5
     },
     "17": {
-     "avg": 205.32,
-     "min": 205.32,
+     "avg": 205.11,
+     "min": 204.9,
      "max": 205.32,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 203.32,
@@ -4068,10 +3672,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 204.0,
+     "avg": 204.22,
      "min": 204.0,
-     "max": 204.0,
-     "count": 3
+     "max": 204.9,
+     "count": 4
     },
     "6": {
      "avg": 203.32,
@@ -4301,19 +3905,462 @@
      "ts": "2026-11-16 09:53:27",
      "price": 204.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
+    }
+   ]
+  },
+  {
+   "name": "无与伦比-将军",
+   "group": "老牌火区",
+   "price": 204.6,
+   "change_1d": -1.5,
+   "change_7d": -2.11,
+   "sample_count": 40,
+   "volatility": {
+    "std": 0.36,
+    "daily_range_avg": 0.67,
+    "high": 206.71,
+    "low": 204.6
+   },
+   "extremes": {
+    "daily": [
+     {
+      "date": "2026-11-14",
+      "high": 206.71,
+      "high_time": "13:52",
+      "high_hour": 13,
+      "low": 206.71,
+      "low_time": "13:52",
+      "low_hour": 13,
+      "range": 0.0
+     },
+     {
+      "date": "2026-11-15",
+      "high": 206.71,
+      "high_time": "00:05",
+      "high_hour": 0,
+      "low": 206.21,
+      "low_time": "17:50",
+      "low_hour": 17,
+      "range": 0.5
+     },
+     {
+      "date": "2026-11-16",
+      "high": 206.1,
+      "high_time": "00:59",
+      "high_hour": 0,
+      "low": 204.6,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 1.5
+     }
+    ],
+    "weekly": [
+     {
+      "week": "2026-W46",
+      "high": 206.71,
+      "high_time": "周六 13:52",
+      "low": 206.21,
+      "low_time": "周日 17:50",
+      "range": 0.5
+     },
+     {
+      "week": "2026-W47",
+      "high": 206.1,
+      "high_time": "周一 00:59",
+      "low": 204.6,
+      "low_time": "周一 17:28",
+      "range": 1.5
+     }
+    ],
+    "high_hour_dist": {
+     "0": 2,
+     "13": 1
+    },
+    "low_hour_dist": {
+     "13": 1,
+     "17": 2
+    },
+    "high_dow_dist": {
+     "1": 1,
+     "6": 1
+    },
+    "low_dow_dist": {
+     "1": 1,
+     "7": 1
+    },
+    "top_high_time": {
+     "label": "00:00",
+     "count": 2
+    },
+    "top_low_time": {
+     "label": "17:00",
+     "count": 2
+    },
+    "top_high_week": {
+     "label": "周六",
+     "count": 1
+    },
+    "top_low_week": {
+     "label": "周日",
+     "count": 1
+    }
+   },
+   "hour_stats": {
+    "0": {
+     "avg": 206.51,
+     "min": 206.1,
+     "max": 206.71,
+     "count": 3
+    },
+    "1": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 2
+    },
+    "2": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 3
+    },
+    "3": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 2
+    },
+    "4": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 2
+    },
+    "5": {
+     "avg": 206.51,
+     "min": 206.1,
+     "max": 206.71,
+     "count": 3
+    },
+    "6": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 3
+    },
+    "7": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 2
+    },
+    "8": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 2
+    },
+    "9": {
+     "avg": 206.51,
+     "min": 206.1,
+     "max": 206.71,
+     "count": 3
+    },
+    "10": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 1
+    },
+    "13": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 2
+    },
+    "14": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 5
+    },
+    "17": {
+     "avg": 205.41,
+     "min": 204.6,
+     "max": 206.21,
+     "count": 2
+    },
+    "20": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 2
+    },
+    "23": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 3
+    }
+   },
+   "dow_stats": {
+    "1": {
+     "avg": 205.72,
+     "min": 204.6,
+     "max": 206.1,
+     "count": 4
+    },
+    "6": {
+     "avg": 206.71,
+     "min": 206.71,
+     "max": 206.71,
+     "count": 12
+    },
+    "7": {
+     "avg": 206.69,
+     "min": 206.21,
+     "max": 206.71,
+     "count": 24
+    }
+   },
+   "history": [
+    {
+     "ts": "2026-11-07 13:52:33",
+     "price": 209.61,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-07 13:57:36",
+     "price": 209.61,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:52:33",
+     "price": 206.61,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:57:36",
+     "price": 206.61,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-14 13:52:33",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 13:57:36",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:08:54",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:10:51",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:24:45",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:40:54",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:54:19",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:43:38",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:45:04",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:32:41",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:34:22",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:35:33",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:05:45",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:35:56",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:06:07",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:36:18",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:06:31",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:36:41",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:43:14",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:06:51",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:37:05",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:07:16",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:37:24",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:07:33",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:37:42",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:07:51",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:38:00",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:56:14",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:08:10",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:38:22",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:08:31",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:38:40",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:08:49",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:39:00",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 10:33:15",
+     "price": 206.71,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 17:50:42",
+     "price": 206.21,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 00:59:04",
+     "price": 206.1,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 05:40:50",
+     "price": 206.1,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 09:53:27",
+     "price": 206.1,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 204.6,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "北京1区-2008",
    "group": "老牌火区",
-   "price": 200.1,
-   "change_1d": -4.65,
-   "change_7d": -7.75,
-   "sample_count": 39,
+   "price": 203.7,
+   "change_1d": 3.6,
+   "change_7d": -3.15,
+   "sample_count": 40,
    "volatility": {
-    "std": 1.24,
-    "daily_range_avg": 0.03,
+    "std": 1.23,
+    "daily_range_avg": 1.23,
     "high": 204.75,
     "low": 200.1
    },
@@ -4341,13 +4388,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 200.1,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 203.7,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 200.1,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 3.6
      }
     ],
     "weekly": [
@@ -4361,16 +4408,17 @@
      },
      {
       "week": "2026-W47",
-      "high": 200.1,
-      "high_time": "周一 00:59",
+      "high": 203.7,
+      "high_time": "周一 17:28",
       "low": 200.1,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 3.6
      }
     ],
     "high_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "low_hour_dist": {
      "0": 1,
@@ -4386,8 +4434,8 @@
      "7": 1
     },
     "top_high_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_low_time": {
      "label": "13:00",
@@ -4482,10 +4530,10 @@
      "count": 5
     },
     "17": {
-     "avg": 204.65,
-     "min": 204.65,
+     "avg": 204.18,
+     "min": 203.7,
      "max": 204.65,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 204.75,
@@ -4502,10 +4550,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 200.1,
+     "avg": 201.0,
      "min": 200.1,
-     "max": 200.1,
-     "count": 3
+     "max": 203.7,
+     "count": 4
     },
     "6": {
      "avg": 204.75,
@@ -4735,19 +4783,24 @@
      "ts": "2026-11-16 09:53:27",
      "price": 200.1,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 203.7,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "浙江1区-西栅老街",
    "group": "活跃老区",
-   "price": 208.8,
-   "change_1d": -1.49,
-   "change_7d": -3.29,
-   "sample_count": 39,
+   "price": 209.1,
+   "change_1d": 0.3,
+   "change_7d": -3.09,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.4,
-    "daily_range_avg": 0.0,
+    "std": 0.43,
+    "daily_range_avg": 0.1,
     "high": 210.29,
     "low": 208.8
    },
@@ -4775,13 +4828,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 208.8,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 209.1,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 208.8,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 0.3
      }
     ],
     "weekly": [
@@ -4795,16 +4848,17 @@
      },
      {
       "week": "2026-W47",
-      "high": 208.8,
-      "high_time": "周一 00:59",
+      "high": 209.1,
+      "high_time": "周一 17:28",
       "low": 208.8,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 0.3
      }
     ],
     "high_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "low_hour_dist": {
      "0": 2,
@@ -4819,8 +4873,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_low_time": {
      "label": "00:00",
@@ -4915,10 +4969,10 @@
      "count": 5
     },
     "17": {
-     "avg": 210.29,
-     "min": 210.29,
+     "avg": 209.69,
+     "min": 209.1,
      "max": 210.29,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 210.29,
@@ -4935,10 +4989,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 208.8,
+     "avg": 208.88,
      "min": 208.8,
-     "max": 208.8,
-     "count": 3
+     "max": 209.1,
+     "count": 4
     },
     "6": {
      "avg": 210.29,
@@ -5168,21 +5222,26 @@
      "ts": "2026-11-16 09:53:27",
      "price": 208.8,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 209.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "笑傲三界-花好月圆",
    "group": "活跃老区",
-   "price": 208.5,
-   "change_1d": -0.52,
-   "change_7d": -2.52,
-   "sample_count": 39,
+   "price": 207.9,
+   "change_1d": -0.6,
+   "change_7d": -2.12,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.14,
-    "daily_range_avg": 0.0,
+    "std": 0.22,
+    "daily_range_avg": 0.2,
     "high": 209.02,
-    "low": 208.5
+    "low": 207.9
    },
    "extremes": {
     "daily": [
@@ -5211,10 +5270,10 @@
       "high": 208.5,
       "high_time": "00:59",
       "high_hour": 0,
-      "low": 208.5,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
+      "low": 207.9,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 0.6
      }
     ],
     "weekly": [
@@ -5230,9 +5289,9 @@
       "week": "2026-W47",
       "high": 208.5,
       "high_time": "周一 00:59",
-      "low": 208.5,
-      "low_time": "周一 00:59",
-      "range": 0.0
+      "low": 207.9,
+      "low_time": "周一 17:28",
+      "range": 0.6
      }
     ],
     "high_hour_dist": {
@@ -5240,8 +5299,9 @@
      "13": 1
     },
     "low_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "high_dow_dist": {
      "1": 1,
@@ -5256,8 +5316,8 @@
      "count": 2
     },
     "top_low_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_high_week": {
      "label": "周六",
@@ -5348,10 +5408,10 @@
      "count": 5
     },
     "17": {
-     "avg": 209.02,
-     "min": 209.02,
+     "avg": 208.46,
+     "min": 207.9,
      "max": 209.02,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 209.02,
@@ -5368,10 +5428,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 208.5,
-     "min": 208.5,
+     "avg": 208.35,
+     "min": 207.9,
      "max": 208.5,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 209.02,
@@ -5601,2130 +5661,10 @@
      "ts": "2026-11-16 09:53:27",
      "price": 208.5,
      "source": "3jiebanzhuan"
-    }
-   ]
-  },
-  {
-   "name": "浙江2区-灵隐寺",
-   "group": "活跃老区",
-   "price": 207.0,
-   "change_1d": 0.74,
-   "change_7d": 1.34,
-   "sample_count": 38,
-   "volatility": {
-    "std": 0.27,
-    "daily_range_avg": 0.37,
-    "high": 207.0,
-    "low": 205.16
-   },
-   "extremes": {
-    "daily": [
-     {
-      "date": "2026-11-14",
-      "high": 206.26,
-      "high_time": "13:57",
-      "high_hour": 13,
-      "low": 206.26,
-      "low_time": "13:57",
-      "low_hour": 13,
-      "range": 0.0
-     },
-     {
-      "date": "2026-11-15",
-      "high": 206.26,
-      "high_time": "00:05",
-      "high_hour": 0,
-      "low": 205.16,
-      "low_time": "17:50",
-      "low_hour": 17,
-      "range": 1.1
-     },
-     {
-      "date": "2026-11-16",
-      "high": 207.0,
-      "high_time": "00:59",
-      "high_hour": 0,
-      "low": 207.0,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
-     }
-    ],
-    "weekly": [
-     {
-      "week": "2026-W46",
-      "high": 206.26,
-      "high_time": "周六 13:57",
-      "low": 205.16,
-      "low_time": "周日 17:50",
-      "range": 1.1
-     },
-     {
-      "week": "2026-W47",
-      "high": 207.0,
-      "high_time": "周一 00:59",
-      "low": 207.0,
-      "low_time": "周一 00:59",
-      "range": 0.0
-     }
-    ],
-    "high_hour_dist": {
-     "0": 2,
-     "13": 1
     },
-    "low_hour_dist": {
-     "0": 1,
-     "13": 1,
-     "17": 1
-    },
-    "high_dow_dist": {
-     "1": 1,
-     "6": 1
-    },
-    "low_dow_dist": {
-     "1": 1,
-     "7": 1
-    },
-    "top_high_time": {
-     "label": "00:00",
-     "count": 2
-    },
-    "top_low_time": {
-     "label": "13:00",
-     "count": 1
-    },
-    "top_high_week": {
-     "label": "周六",
-     "count": 1
-    },
-    "top_low_week": {
-     "label": "周日",
-     "count": 1
-    }
-   },
-   "hour_stats": {
-    "0": {
-     "avg": 206.51,
-     "min": 206.26,
-     "max": 207.0,
-     "count": 3
-    },
-    "1": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 2
-    },
-    "2": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 3
-    },
-    "3": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 2
-    },
-    "4": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 2
-    },
-    "5": {
-     "avg": 206.51,
-     "min": 206.26,
-     "max": 207.0,
-     "count": 3
-    },
-    "6": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 3
-    },
-    "7": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 2
-    },
-    "8": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 2
-    },
-    "9": {
-     "avg": 206.51,
-     "min": 206.26,
-     "max": 207.0,
-     "count": 3
-    },
-    "10": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 1
-    },
-    "13": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 1
-    },
-    "14": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 5
-    },
-    "17": {
-     "avg": 205.16,
-     "min": 205.16,
-     "max": 205.16,
-     "count": 1
-    },
-    "20": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 2
-    },
-    "23": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 3
-    }
-   },
-   "dow_stats": {
-    "1": {
-     "avg": 207.0,
-     "min": 207.0,
-     "max": 207.0,
-     "count": 3
-    },
-    "6": {
-     "avg": 206.26,
-     "min": 206.26,
-     "max": 206.26,
-     "count": 11
-    },
-    "7": {
-     "avg": 206.21,
-     "min": 205.16,
-     "max": 206.26,
-     "count": 24
-    }
-   },
-   "history": [
-    {
-     "ts": "2026-11-07 13:57:36",
-     "price": 206.66,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:57:36",
-     "price": 205.66,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-14 13:57:36",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:08:54",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:10:51",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:24:45",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:40:54",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:54:19",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:43:38",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:45:04",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:32:41",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:34:22",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:35:33",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:05:45",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:35:56",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:06:07",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:36:18",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:06:31",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:36:41",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:43:14",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:06:51",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:37:05",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:07:16",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:37:24",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:07:33",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:37:42",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:07:51",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:38:00",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:56:14",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:08:10",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:38:22",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:08:31",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:38:40",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:08:49",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:39:00",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 10:33:15",
-     "price": 206.26,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 17:50:42",
-     "price": 205.16,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 00:59:04",
-     "price": 207.0,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 05:40:50",
-     "price": 207.0,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 09:53:27",
-     "price": 207.0,
-     "source": "3jiebanzhuan"
-    }
-   ]
-  },
-  {
-   "name": "陕西区-大雁塔",
-   "group": "活跃老区",
-   "price": 205.8,
-   "change_1d": -0.31,
-   "change_7d": -2.31,
-   "sample_count": 38,
-   "volatility": {
-    "std": 0.18,
-    "daily_range_avg": 0.33,
-    "high": 206.11,
-    "low": 205.11
-   },
-   "extremes": {
-    "daily": [
-     {
-      "date": "2026-11-14",
-      "high": 206.11,
-      "high_time": "13:57",
-      "high_hour": 13,
-      "low": 206.11,
-      "low_time": "13:57",
-      "low_hour": 13,
-      "range": 0.0
-     },
-     {
-      "date": "2026-11-15",
-      "high": 206.11,
-      "high_time": "00:05",
-      "high_hour": 0,
-      "low": 205.11,
-      "low_time": "17:50",
-      "low_hour": 17,
-      "range": 1.0
-     },
-     {
-      "date": "2026-11-16",
-      "high": 205.8,
-      "high_time": "00:59",
-      "high_hour": 0,
-      "low": 205.8,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
-     }
-    ],
-    "weekly": [
-     {
-      "week": "2026-W46",
-      "high": 206.11,
-      "high_time": "周六 13:57",
-      "low": 205.11,
-      "low_time": "周日 17:50",
-      "range": 1.0
-     },
-     {
-      "week": "2026-W47",
-      "high": 205.8,
-      "high_time": "周一 00:59",
-      "low": 205.8,
-      "low_time": "周一 00:59",
-      "range": 0.0
-     }
-    ],
-    "high_hour_dist": {
-     "0": 2,
-     "13": 1
-    },
-    "low_hour_dist": {
-     "0": 1,
-     "13": 1,
-     "17": 1
-    },
-    "high_dow_dist": {
-     "1": 1,
-     "6": 1
-    },
-    "low_dow_dist": {
-     "1": 1,
-     "7": 1
-    },
-    "top_high_time": {
-     "label": "00:00",
-     "count": 2
-    },
-    "top_low_time": {
-     "label": "13:00",
-     "count": 1
-    },
-    "top_high_week": {
-     "label": "周六",
-     "count": 1
-    },
-    "top_low_week": {
-     "label": "周日",
-     "count": 1
-    }
-   },
-   "hour_stats": {
-    "0": {
-     "avg": 206.01,
-     "min": 205.8,
-     "max": 206.11,
-     "count": 3
-    },
-    "1": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 2
-    },
-    "2": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 3
-    },
-    "3": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 2
-    },
-    "4": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 2
-    },
-    "5": {
-     "avg": 206.01,
-     "min": 205.8,
-     "max": 206.11,
-     "count": 3
-    },
-    "6": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 3
-    },
-    "7": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 2
-    },
-    "8": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 2
-    },
-    "9": {
-     "avg": 206.01,
-     "min": 205.8,
-     "max": 206.11,
-     "count": 3
-    },
-    "10": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 1
-    },
-    "13": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 1
-    },
-    "14": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 5
-    },
-    "17": {
-     "avg": 205.11,
-     "min": 205.11,
-     "max": 205.11,
-     "count": 1
-    },
-    "20": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 2
-    },
-    "23": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 3
-    }
-   },
-   "dow_stats": {
-    "1": {
-     "avg": 205.8,
-     "min": 205.8,
-     "max": 205.8,
-     "count": 3
-    },
-    "6": {
-     "avg": 206.11,
-     "min": 206.11,
-     "max": 206.11,
-     "count": 11
-    },
-    "7": {
-     "avg": 206.07,
-     "min": 205.11,
-     "max": 206.11,
-     "count": 24
-    }
-   },
-   "history": [
-    {
-     "ts": "2026-11-07 13:57:36",
-     "price": 208.11,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:57:36",
-     "price": 207.11,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-14 13:57:36",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:08:54",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:10:51",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:24:45",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:40:54",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:54:19",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:43:38",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:45:04",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:32:41",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:34:22",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:35:33",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:05:45",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:35:56",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:06:07",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:36:18",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:06:31",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:36:41",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:43:14",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:06:51",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:37:05",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:07:16",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:37:24",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:07:33",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:37:42",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:07:51",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:38:00",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:56:14",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:08:10",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:38:22",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:08:31",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:38:40",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:08:49",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:39:00",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 10:33:15",
-     "price": 206.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 17:50:42",
-     "price": 205.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 00:59:04",
-     "price": 205.8,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 05:40:50",
-     "price": 205.8,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 09:53:27",
-     "price": 205.8,
-     "source": "3jiebanzhuan"
-    }
-   ]
-  },
-  {
-   "name": "江苏1区-文昌阁",
-   "group": "活跃老区",
-   "price": 205.5,
-   "change_1d": -2.18,
-   "change_7d": -3.68,
-   "sample_count": 38,
-   "volatility": {
-    "std": 0.6,
-    "daily_range_avg": 0.33,
-    "high": 207.68,
-    "low": 205.5
-   },
-   "extremes": {
-    "daily": [
-     {
-      "date": "2026-11-14",
-      "high": 207.68,
-      "high_time": "13:57",
-      "high_hour": 13,
-      "low": 207.68,
-      "low_time": "13:57",
-      "low_hour": 13,
-      "range": 0.0
-     },
-     {
-      "date": "2026-11-15",
-      "high": 207.68,
-      "high_time": "00:05",
-      "high_hour": 0,
-      "low": 206.68,
-      "low_time": "17:50",
-      "low_hour": 17,
-      "range": 1.0
-     },
-     {
-      "date": "2026-11-16",
-      "high": 205.5,
-      "high_time": "00:59",
-      "high_hour": 0,
-      "low": 205.5,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
-     }
-    ],
-    "weekly": [
-     {
-      "week": "2026-W46",
-      "high": 207.68,
-      "high_time": "周六 13:57",
-      "low": 206.68,
-      "low_time": "周日 17:50",
-      "range": 1.0
-     },
-     {
-      "week": "2026-W47",
-      "high": 205.5,
-      "high_time": "周一 00:59",
-      "low": 205.5,
-      "low_time": "周一 00:59",
-      "range": 0.0
-     }
-    ],
-    "high_hour_dist": {
-     "0": 2,
-     "13": 1
-    },
-    "low_hour_dist": {
-     "0": 1,
-     "13": 1,
-     "17": 1
-    },
-    "high_dow_dist": {
-     "1": 1,
-     "6": 1
-    },
-    "low_dow_dist": {
-     "1": 1,
-     "7": 1
-    },
-    "top_high_time": {
-     "label": "00:00",
-     "count": 2
-    },
-    "top_low_time": {
-     "label": "13:00",
-     "count": 1
-    },
-    "top_high_week": {
-     "label": "周六",
-     "count": 1
-    },
-    "top_low_week": {
-     "label": "周日",
-     "count": 1
-    }
-   },
-   "hour_stats": {
-    "0": {
-     "avg": 206.95,
-     "min": 205.5,
-     "max": 207.68,
-     "count": 3
-    },
-    "1": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 2
-    },
-    "2": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 3
-    },
-    "3": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 2
-    },
-    "4": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 2
-    },
-    "5": {
-     "avg": 206.95,
-     "min": 205.5,
-     "max": 207.68,
-     "count": 3
-    },
-    "6": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 3
-    },
-    "7": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 2
-    },
-    "8": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 2
-    },
-    "9": {
-     "avg": 206.95,
-     "min": 205.5,
-     "max": 207.68,
-     "count": 3
-    },
-    "10": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 1
-    },
-    "13": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 1
-    },
-    "14": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 5
-    },
-    "17": {
-     "avg": 206.68,
-     "min": 206.68,
-     "max": 206.68,
-     "count": 1
-    },
-    "20": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 2
-    },
-    "23": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 3
-    }
-   },
-   "dow_stats": {
-    "1": {
-     "avg": 205.5,
-     "min": 205.5,
-     "max": 205.5,
-     "count": 3
-    },
-    "6": {
-     "avg": 207.68,
-     "min": 207.68,
-     "max": 207.68,
-     "count": 11
-    },
-    "7": {
-     "avg": 207.64,
-     "min": 206.68,
-     "max": 207.68,
-     "count": 24
-    }
-   },
-   "history": [
-    {
-     "ts": "2026-11-07 13:57:36",
-     "price": 208.68,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:57:36",
-     "price": 207.48,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-14 13:57:36",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:08:54",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:10:51",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:24:45",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:40:54",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:54:19",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:43:38",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:45:04",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:32:41",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:34:22",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:35:33",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:05:45",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:35:56",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:06:07",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:36:18",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:06:31",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:36:41",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:43:14",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:06:51",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:37:05",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:07:16",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:37:24",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:07:33",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:37:42",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:07:51",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:38:00",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:56:14",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:08:10",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:38:22",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:08:31",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:38:40",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:08:49",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:39:00",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 10:33:15",
-     "price": 207.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 17:50:42",
-     "price": 206.68,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 00:59:04",
-     "price": 205.5,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 05:40:50",
-     "price": 205.5,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 09:53:27",
-     "price": 205.5,
-     "source": "3jiebanzhuan"
-    }
-   ]
-  },
-  {
-   "name": "山东5区-曲阜孔庙",
-   "group": "活跃老区",
-   "price": 204.9,
-   "change_1d": -1.01,
-   "change_7d": -3.21,
-   "sample_count": 39,
-   "volatility": {
-    "std": 0.29,
-    "daily_range_avg": 0.27,
-    "high": 205.91,
-    "low": 204.9
-   },
-   "extremes": {
-    "daily": [
-     {
-      "date": "2026-11-14",
-      "high": 205.91,
-      "high_time": "13:52",
-      "high_hour": 13,
-      "low": 205.91,
-      "low_time": "13:52",
-      "low_hour": 13,
-      "range": 0.0
-     },
-     {
-      "date": "2026-11-15",
-      "high": 205.91,
-      "high_time": "00:05",
-      "high_hour": 0,
-      "low": 205.11,
-      "low_time": "17:50",
-      "low_hour": 17,
-      "range": 0.8
-     },
-     {
-      "date": "2026-11-16",
-      "high": 204.9,
-      "high_time": "00:59",
-      "high_hour": 0,
-      "low": 204.9,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
-     }
-    ],
-    "weekly": [
-     {
-      "week": "2026-W46",
-      "high": 205.91,
-      "high_time": "周六 13:52",
-      "low": 205.11,
-      "low_time": "周日 17:50",
-      "range": 0.8
-     },
-     {
-      "week": "2026-W47",
-      "high": 204.9,
-      "high_time": "周一 00:59",
-      "low": 204.9,
-      "low_time": "周一 00:59",
-      "range": 0.0
-     }
-    ],
-    "high_hour_dist": {
-     "0": 2,
-     "13": 1
-    },
-    "low_hour_dist": {
-     "0": 1,
-     "13": 1,
-     "17": 1
-    },
-    "high_dow_dist": {
-     "1": 1,
-     "6": 1
-    },
-    "low_dow_dist": {
-     "1": 1,
-     "7": 1
-    },
-    "top_high_time": {
-     "label": "00:00",
-     "count": 2
-    },
-    "top_low_time": {
-     "label": "13:00",
-     "count": 1
-    },
-    "top_high_week": {
-     "label": "周六",
-     "count": 1
-    },
-    "top_low_week": {
-     "label": "周日",
-     "count": 1
-    }
-   },
-   "hour_stats": {
-    "0": {
-     "avg": 205.57,
-     "min": 204.9,
-     "max": 205.91,
-     "count": 3
-    },
-    "1": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 2
-    },
-    "2": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 3
-    },
-    "3": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 2
-    },
-    "4": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 2
-    },
-    "5": {
-     "avg": 205.57,
-     "min": 204.9,
-     "max": 205.91,
-     "count": 3
-    },
-    "6": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 3
-    },
-    "7": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 2
-    },
-    "8": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 2
-    },
-    "9": {
-     "avg": 205.57,
-     "min": 204.9,
-     "max": 205.91,
-     "count": 3
-    },
-    "10": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 1
-    },
-    "13": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 2
-    },
-    "14": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 5
-    },
-    "17": {
-     "avg": 205.11,
-     "min": 205.11,
-     "max": 205.11,
-     "count": 1
-    },
-    "20": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 2
-    },
-    "23": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 3
-    }
-   },
-   "dow_stats": {
-    "1": {
-     "avg": 204.9,
-     "min": 204.9,
-     "max": 204.9,
-     "count": 3
-    },
-    "6": {
-     "avg": 205.91,
-     "min": 205.91,
-     "max": 205.91,
-     "count": 12
-    },
-    "7": {
-     "avg": 205.88,
-     "min": 205.11,
-     "max": 205.91,
-     "count": 24
-    }
-   },
-   "history": [
-    {
-     "ts": "2026-11-07 13:52:33",
-     "price": 210.91,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-07 13:57:36",
-     "price": 210.91,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:52:33",
-     "price": 206.71,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:57:36",
-     "price": 206.71,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-14 13:52:33",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 13:57:36",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:08:54",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:10:51",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:24:45",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:40:54",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:54:19",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:43:38",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:45:04",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:32:41",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:34:22",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:35:33",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:05:45",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:35:56",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:06:07",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:36:18",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:06:31",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:36:41",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:43:14",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:06:51",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:37:05",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:07:16",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:37:24",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:07:33",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:37:42",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:07:51",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:38:00",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:56:14",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:08:10",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:38:22",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:08:31",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:38:40",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:08:49",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:39:00",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 10:33:15",
-     "price": 205.91,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 17:50:42",
-     "price": 205.11,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 00:59:04",
-     "price": 204.9,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 05:40:50",
-     "price": 204.9,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 09:53:27",
-     "price": 204.9,
-     "source": "3jiebanzhuan"
-    }
-   ]
-  },
-  {
-   "name": "追忆-再续前缘",
-   "group": "活跃老区",
-   "price": 204.9,
-   "change_1d": -0.47,
-   "change_7d": -2.97,
-   "sample_count": 39,
-   "volatility": {
-    "std": 0.13,
-    "daily_range_avg": 0.03,
-    "high": 205.37,
-    "low": 204.9
-   },
-   "extremes": {
-    "daily": [
-     {
-      "date": "2026-11-14",
-      "high": 205.37,
-      "high_time": "13:52",
-      "high_hour": 13,
-      "low": 205.37,
-      "low_time": "13:52",
-      "low_hour": 13,
-      "range": 0.0
-     },
-     {
-      "date": "2026-11-15",
-      "high": 205.37,
-      "high_time": "00:05",
-      "high_hour": 0,
-      "low": 205.27,
-      "low_time": "17:50",
-      "low_hour": 17,
-      "range": 0.1
-     },
-     {
-      "date": "2026-11-16",
-      "high": 204.9,
-      "high_time": "00:59",
-      "high_hour": 0,
-      "low": 204.9,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
-     }
-    ],
-    "weekly": [
-     {
-      "week": "2026-W46",
-      "high": 205.37,
-      "high_time": "周六 13:52",
-      "low": 205.27,
-      "low_time": "周日 17:50",
-      "range": 0.1
-     },
-     {
-      "week": "2026-W47",
-      "high": 204.9,
-      "high_time": "周一 00:59",
-      "low": 204.9,
-      "low_time": "周一 00:59",
-      "range": 0.0
-     }
-    ],
-    "high_hour_dist": {
-     "0": 2,
-     "13": 1
-    },
-    "low_hour_dist": {
-     "0": 1,
-     "13": 1,
-     "17": 1
-    },
-    "high_dow_dist": {
-     "1": 1,
-     "6": 1
-    },
-    "low_dow_dist": {
-     "1": 1,
-     "7": 1
-    },
-    "top_high_time": {
-     "label": "00:00",
-     "count": 2
-    },
-    "top_low_time": {
-     "label": "13:00",
-     "count": 1
-    },
-    "top_high_week": {
-     "label": "周六",
-     "count": 1
-    },
-    "top_low_week": {
-     "label": "周日",
-     "count": 1
-    }
-   },
-   "hour_stats": {
-    "0": {
-     "avg": 205.21,
-     "min": 204.9,
-     "max": 205.37,
-     "count": 3
-    },
-    "1": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 2
-    },
-    "2": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 3
-    },
-    "3": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 2
-    },
-    "4": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 2
-    },
-    "5": {
-     "avg": 205.21,
-     "min": 204.9,
-     "max": 205.37,
-     "count": 3
-    },
-    "6": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 3
-    },
-    "7": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 2
-    },
-    "8": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 2
-    },
-    "9": {
-     "avg": 205.21,
-     "min": 204.9,
-     "max": 205.37,
-     "count": 3
-    },
-    "10": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 1
-    },
-    "13": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 2
-    },
-    "14": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 5
-    },
-    "17": {
-     "avg": 205.27,
-     "min": 205.27,
-     "max": 205.27,
-     "count": 1
-    },
-    "20": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 2
-    },
-    "23": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 3
-    }
-   },
-   "dow_stats": {
-    "1": {
-     "avg": 204.9,
-     "min": 204.9,
-     "max": 204.9,
-     "count": 3
-    },
-    "6": {
-     "avg": 205.37,
-     "min": 205.37,
-     "max": 205.37,
-     "count": 12
-    },
-    "7": {
-     "avg": 205.37,
-     "min": 205.27,
-     "max": 205.37,
-     "count": 24
-    }
-   },
-   "history": [
-    {
-     "ts": "2026-11-07 13:52:33",
-     "price": 208.37,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-07 13:57:36",
-     "price": 208.37,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:52:33",
-     "price": 205.37,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-13 13:57:36",
-     "price": 205.37,
-     "source": "backfill"
-    },
-    {
-     "ts": "2026-11-14 13:52:33",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 13:57:36",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:08:54",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:10:51",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:24:45",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:40:54",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 14:54:19",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:43:38",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 20:45:04",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:32:41",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:34:22",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-14 23:35:33",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:05:45",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 00:35:56",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:06:07",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 01:36:18",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:06:31",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:36:41",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 02:43:14",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:06:51",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 03:37:05",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:07:16",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 04:37:24",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:07:33",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 05:37:42",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:07:51",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:38:00",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 06:56:14",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:08:10",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 07:38:22",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:08:31",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 08:38:40",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:08:49",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 09:39:00",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 10:33:15",
-     "price": 205.37,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-15 17:50:42",
-     "price": 205.27,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 00:59:04",
-     "price": 204.9,
-     "source": "3jiebanzhuan"
-    },
-    {
-     "ts": "2026-11-16 05:40:50",
-     "price": 204.9,
-     "source": "3jiebanzhuan"
-    },
     {
-     "ts": "2026-11-16 09:53:27",
-     "price": 204.9,
+     "ts": "2026-11-16 17:28:47",
+     "price": 207.9,
      "source": "3jiebanzhuan"
     }
    ]
@@ -7732,13 +5672,13 @@
   {
    "name": "北京1区-太和殿",
    "group": "活跃老区",
-   "price": 204.9,
-   "change_1d": -2.19,
-   "change_7d": -6.59,
-   "sample_count": 39,
+   "price": 207.0,
+   "change_1d": 2.1,
+   "change_7d": -3.59,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.59,
-    "daily_range_avg": 0.17,
+    "std": 0.58,
+    "daily_range_avg": 0.87,
     "high": 207.09,
     "low": 204.9
    },
@@ -7766,13 +5706,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 204.9,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 207.0,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 204.9,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 2.1
      }
     ],
     "weekly": [
@@ -7786,16 +5726,17 @@
      },
      {
       "week": "2026-W47",
-      "high": 204.9,
-      "high_time": "周一 00:59",
+      "high": 207.0,
+      "high_time": "周一 17:28",
       "low": 204.9,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 2.1
      }
     ],
     "high_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "low_hour_dist": {
      "0": 1,
@@ -7811,8 +5752,8 @@
      "7": 1
     },
     "top_high_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_low_time": {
      "label": "13:00",
@@ -7907,10 +5848,10 @@
      "count": 5
     },
     "17": {
-     "avg": 206.59,
+     "avg": 206.8,
      "min": 206.59,
-     "max": 206.59,
-     "count": 1
+     "max": 207.0,
+     "count": 2
     },
     "20": {
      "avg": 207.09,
@@ -7927,10 +5868,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 204.9,
+     "avg": 205.43,
      "min": 204.9,
-     "max": 204.9,
-     "count": 3
+     "max": 207.0,
+     "count": 4
     },
     "6": {
      "avg": 207.09,
@@ -8160,6 +6101,2163 @@
      "ts": "2026-11-16 09:53:27",
      "price": 204.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 207.0,
+     "source": "3jiebanzhuan"
+    }
+   ]
+  },
+  {
+   "name": "陕西区-大雁塔",
+   "group": "活跃老区",
+   "price": 207.0,
+   "change_1d": 1.2,
+   "change_7d": -0.11,
+   "sample_count": 39,
+   "volatility": {
+    "std": 0.23,
+    "daily_range_avg": 0.73,
+    "high": 207.0,
+    "low": 205.11
+   },
+   "extremes": {
+    "daily": [
+     {
+      "date": "2026-11-14",
+      "high": 206.11,
+      "high_time": "13:57",
+      "high_hour": 13,
+      "low": 206.11,
+      "low_time": "13:57",
+      "low_hour": 13,
+      "range": 0.0
+     },
+     {
+      "date": "2026-11-15",
+      "high": 206.11,
+      "high_time": "00:05",
+      "high_hour": 0,
+      "low": 205.11,
+      "low_time": "17:50",
+      "low_hour": 17,
+      "range": 1.0
+     },
+     {
+      "date": "2026-11-16",
+      "high": 207.0,
+      "high_time": "17:28",
+      "high_hour": 17,
+      "low": 205.8,
+      "low_time": "00:59",
+      "low_hour": 0,
+      "range": 1.2
+     }
+    ],
+    "weekly": [
+     {
+      "week": "2026-W46",
+      "high": 206.11,
+      "high_time": "周六 13:57",
+      "low": 205.11,
+      "low_time": "周日 17:50",
+      "range": 1.0
+     },
+     {
+      "week": "2026-W47",
+      "high": 207.0,
+      "high_time": "周一 17:28",
+      "low": 205.8,
+      "low_time": "周一 00:59",
+      "range": 1.2
+     }
+    ],
+    "high_hour_dist": {
+     "0": 1,
+     "13": 1,
+     "17": 1
+    },
+    "low_hour_dist": {
+     "0": 1,
+     "13": 1,
+     "17": 1
+    },
+    "high_dow_dist": {
+     "1": 1,
+     "6": 1
+    },
+    "low_dow_dist": {
+     "1": 1,
+     "7": 1
+    },
+    "top_high_time": {
+     "label": "13:00",
+     "count": 1
+    },
+    "top_low_time": {
+     "label": "13:00",
+     "count": 1
+    },
+    "top_high_week": {
+     "label": "周六",
+     "count": 1
+    },
+    "top_low_week": {
+     "label": "周日",
+     "count": 1
+    }
+   },
+   "hour_stats": {
+    "0": {
+     "avg": 206.01,
+     "min": 205.8,
+     "max": 206.11,
+     "count": 3
+    },
+    "1": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 2
+    },
+    "2": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 3
+    },
+    "3": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 2
+    },
+    "4": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 2
+    },
+    "5": {
+     "avg": 206.01,
+     "min": 205.8,
+     "max": 206.11,
+     "count": 3
+    },
+    "6": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 3
+    },
+    "7": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 2
+    },
+    "8": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 2
+    },
+    "9": {
+     "avg": 206.01,
+     "min": 205.8,
+     "max": 206.11,
+     "count": 3
+    },
+    "10": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 1
+    },
+    "13": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 1
+    },
+    "14": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 5
+    },
+    "17": {
+     "avg": 206.06,
+     "min": 205.11,
+     "max": 207.0,
+     "count": 2
+    },
+    "20": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 2
+    },
+    "23": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 3
+    }
+   },
+   "dow_stats": {
+    "1": {
+     "avg": 206.1,
+     "min": 205.8,
+     "max": 207.0,
+     "count": 4
+    },
+    "6": {
+     "avg": 206.11,
+     "min": 206.11,
+     "max": 206.11,
+     "count": 11
+    },
+    "7": {
+     "avg": 206.07,
+     "min": 205.11,
+     "max": 206.11,
+     "count": 24
+    }
+   },
+   "history": [
+    {
+     "ts": "2026-11-07 13:57:36",
+     "price": 208.11,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:57:36",
+     "price": 207.11,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-14 13:57:36",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:08:54",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:10:51",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:24:45",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:40:54",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:54:19",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:43:38",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:45:04",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:32:41",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:34:22",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:35:33",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:05:45",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:35:56",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:06:07",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:36:18",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:06:31",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:36:41",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:43:14",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:06:51",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:37:05",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:07:16",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:37:24",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:07:33",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:37:42",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:07:51",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:38:00",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:56:14",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:08:10",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:38:22",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:08:31",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:38:40",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:08:49",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:39:00",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 10:33:15",
+     "price": 206.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 17:50:42",
+     "price": 205.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 00:59:04",
+     "price": 205.8,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 05:40:50",
+     "price": 205.8,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 09:53:27",
+     "price": 205.8,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 207.0,
+     "source": "3jiebanzhuan"
+    }
+   ]
+  },
+  {
+   "name": "浙江2区-灵隐寺",
+   "group": "活跃老区",
+   "price": 207.0,
+   "change_1d": 0.0,
+   "change_7d": 3.34,
+   "sample_count": 39,
+   "volatility": {
+    "std": 0.29,
+    "daily_range_avg": 0.37,
+    "high": 207.0,
+    "low": 205.16
+   },
+   "extremes": {
+    "daily": [
+     {
+      "date": "2026-11-14",
+      "high": 206.26,
+      "high_time": "13:57",
+      "high_hour": 13,
+      "low": 206.26,
+      "low_time": "13:57",
+      "low_hour": 13,
+      "range": 0.0
+     },
+     {
+      "date": "2026-11-15",
+      "high": 206.26,
+      "high_time": "00:05",
+      "high_hour": 0,
+      "low": 205.16,
+      "low_time": "17:50",
+      "low_hour": 17,
+      "range": 1.1
+     },
+     {
+      "date": "2026-11-16",
+      "high": 207.0,
+      "high_time": "00:59",
+      "high_hour": 0,
+      "low": 207.0,
+      "low_time": "00:59",
+      "low_hour": 0,
+      "range": 0.0
+     }
+    ],
+    "weekly": [
+     {
+      "week": "2026-W46",
+      "high": 206.26,
+      "high_time": "周六 13:57",
+      "low": 205.16,
+      "low_time": "周日 17:50",
+      "range": 1.1
+     },
+     {
+      "week": "2026-W47",
+      "high": 207.0,
+      "high_time": "周一 00:59",
+      "low": 207.0,
+      "low_time": "周一 00:59",
+      "range": 0.0
+     }
+    ],
+    "high_hour_dist": {
+     "0": 2,
+     "13": 1
+    },
+    "low_hour_dist": {
+     "0": 1,
+     "13": 1,
+     "17": 1
+    },
+    "high_dow_dist": {
+     "1": 1,
+     "6": 1
+    },
+    "low_dow_dist": {
+     "1": 1,
+     "7": 1
+    },
+    "top_high_time": {
+     "label": "00:00",
+     "count": 2
+    },
+    "top_low_time": {
+     "label": "13:00",
+     "count": 1
+    },
+    "top_high_week": {
+     "label": "周六",
+     "count": 1
+    },
+    "top_low_week": {
+     "label": "周日",
+     "count": 1
+    }
+   },
+   "hour_stats": {
+    "0": {
+     "avg": 206.51,
+     "min": 206.26,
+     "max": 207.0,
+     "count": 3
+    },
+    "1": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 2
+    },
+    "2": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 3
+    },
+    "3": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 2
+    },
+    "4": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 2
+    },
+    "5": {
+     "avg": 206.51,
+     "min": 206.26,
+     "max": 207.0,
+     "count": 3
+    },
+    "6": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 3
+    },
+    "7": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 2
+    },
+    "8": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 2
+    },
+    "9": {
+     "avg": 206.51,
+     "min": 206.26,
+     "max": 207.0,
+     "count": 3
+    },
+    "10": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 1
+    },
+    "13": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 1
+    },
+    "14": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 5
+    },
+    "17": {
+     "avg": 206.08,
+     "min": 205.16,
+     "max": 207.0,
+     "count": 2
+    },
+    "20": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 2
+    },
+    "23": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 3
+    }
+   },
+   "dow_stats": {
+    "1": {
+     "avg": 207.0,
+     "min": 207.0,
+     "max": 207.0,
+     "count": 4
+    },
+    "6": {
+     "avg": 206.26,
+     "min": 206.26,
+     "max": 206.26,
+     "count": 11
+    },
+    "7": {
+     "avg": 206.21,
+     "min": 205.16,
+     "max": 206.26,
+     "count": 24
+    }
+   },
+   "history": [
+    {
+     "ts": "2026-11-07 13:57:36",
+     "price": 206.66,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:57:36",
+     "price": 205.66,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-14 13:57:36",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:08:54",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:10:51",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:24:45",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:40:54",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:54:19",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:43:38",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:45:04",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:32:41",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:34:22",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:35:33",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:05:45",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:35:56",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:06:07",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:36:18",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:06:31",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:36:41",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:43:14",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:06:51",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:37:05",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:07:16",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:37:24",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:07:33",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:37:42",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:07:51",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:38:00",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:56:14",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:08:10",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:38:22",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:08:31",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:38:40",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:08:49",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:39:00",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 10:33:15",
+     "price": 206.26,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 17:50:42",
+     "price": 205.16,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 00:59:04",
+     "price": 207.0,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 05:40:50",
+     "price": 207.0,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 09:53:27",
+     "price": 207.0,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 207.0,
+     "source": "3jiebanzhuan"
+    }
+   ]
+  },
+  {
+   "name": "山东5区-曲阜孔庙",
+   "group": "活跃老区",
+   "price": 206.7,
+   "change_1d": 1.8,
+   "change_7d": -2.01,
+   "sample_count": 40,
+   "volatility": {
+    "std": 0.32,
+    "daily_range_avg": 0.87,
+    "high": 206.7,
+    "low": 204.9
+   },
+   "extremes": {
+    "daily": [
+     {
+      "date": "2026-11-14",
+      "high": 205.91,
+      "high_time": "13:52",
+      "high_hour": 13,
+      "low": 205.91,
+      "low_time": "13:52",
+      "low_hour": 13,
+      "range": 0.0
+     },
+     {
+      "date": "2026-11-15",
+      "high": 205.91,
+      "high_time": "00:05",
+      "high_hour": 0,
+      "low": 205.11,
+      "low_time": "17:50",
+      "low_hour": 17,
+      "range": 0.8
+     },
+     {
+      "date": "2026-11-16",
+      "high": 206.7,
+      "high_time": "17:28",
+      "high_hour": 17,
+      "low": 204.9,
+      "low_time": "00:59",
+      "low_hour": 0,
+      "range": 1.8
+     }
+    ],
+    "weekly": [
+     {
+      "week": "2026-W46",
+      "high": 205.91,
+      "high_time": "周六 13:52",
+      "low": 205.11,
+      "low_time": "周日 17:50",
+      "range": 0.8
+     },
+     {
+      "week": "2026-W47",
+      "high": 206.7,
+      "high_time": "周一 17:28",
+      "low": 204.9,
+      "low_time": "周一 00:59",
+      "range": 1.8
+     }
+    ],
+    "high_hour_dist": {
+     "0": 1,
+     "13": 1,
+     "17": 1
+    },
+    "low_hour_dist": {
+     "0": 1,
+     "13": 1,
+     "17": 1
+    },
+    "high_dow_dist": {
+     "1": 1,
+     "6": 1
+    },
+    "low_dow_dist": {
+     "1": 1,
+     "7": 1
+    },
+    "top_high_time": {
+     "label": "13:00",
+     "count": 1
+    },
+    "top_low_time": {
+     "label": "13:00",
+     "count": 1
+    },
+    "top_high_week": {
+     "label": "周六",
+     "count": 1
+    },
+    "top_low_week": {
+     "label": "周日",
+     "count": 1
+    }
+   },
+   "hour_stats": {
+    "0": {
+     "avg": 205.57,
+     "min": 204.9,
+     "max": 205.91,
+     "count": 3
+    },
+    "1": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 2
+    },
+    "2": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 3
+    },
+    "3": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 2
+    },
+    "4": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 2
+    },
+    "5": {
+     "avg": 205.57,
+     "min": 204.9,
+     "max": 205.91,
+     "count": 3
+    },
+    "6": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 3
+    },
+    "7": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 2
+    },
+    "8": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 2
+    },
+    "9": {
+     "avg": 205.57,
+     "min": 204.9,
+     "max": 205.91,
+     "count": 3
+    },
+    "10": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 1
+    },
+    "13": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 2
+    },
+    "14": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 5
+    },
+    "17": {
+     "avg": 205.91,
+     "min": 205.11,
+     "max": 206.7,
+     "count": 2
+    },
+    "20": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 2
+    },
+    "23": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 3
+    }
+   },
+   "dow_stats": {
+    "1": {
+     "avg": 205.35,
+     "min": 204.9,
+     "max": 206.7,
+     "count": 4
+    },
+    "6": {
+     "avg": 205.91,
+     "min": 205.91,
+     "max": 205.91,
+     "count": 12
+    },
+    "7": {
+     "avg": 205.88,
+     "min": 205.11,
+     "max": 205.91,
+     "count": 24
+    }
+   },
+   "history": [
+    {
+     "ts": "2026-11-07 13:52:33",
+     "price": 210.91,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-07 13:57:36",
+     "price": 210.91,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:52:33",
+     "price": 206.71,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:57:36",
+     "price": 206.71,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-14 13:52:33",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 13:57:36",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:08:54",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:10:51",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:24:45",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:40:54",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:54:19",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:43:38",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:45:04",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:32:41",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:34:22",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:35:33",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:05:45",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:35:56",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:06:07",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:36:18",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:06:31",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:36:41",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:43:14",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:06:51",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:37:05",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:07:16",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:37:24",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:07:33",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:37:42",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:07:51",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:38:00",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:56:14",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:08:10",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:38:22",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:08:31",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:38:40",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:08:49",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:39:00",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 10:33:15",
+     "price": 205.91,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 17:50:42",
+     "price": 205.11,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 00:59:04",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 05:40:50",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 09:53:27",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 206.7,
+     "source": "3jiebanzhuan"
+    }
+   ]
+  },
+  {
+   "name": "追忆-再续前缘",
+   "group": "活跃老区",
+   "price": 206.1,
+   "change_1d": 1.2,
+   "change_7d": -0.97,
+   "sample_count": 40,
+   "volatility": {
+    "std": 0.17,
+    "daily_range_avg": 0.43,
+    "high": 206.1,
+    "low": 204.9
+   },
+   "extremes": {
+    "daily": [
+     {
+      "date": "2026-11-14",
+      "high": 205.37,
+      "high_time": "13:52",
+      "high_hour": 13,
+      "low": 205.37,
+      "low_time": "13:52",
+      "low_hour": 13,
+      "range": 0.0
+     },
+     {
+      "date": "2026-11-15",
+      "high": 205.37,
+      "high_time": "00:05",
+      "high_hour": 0,
+      "low": 205.27,
+      "low_time": "17:50",
+      "low_hour": 17,
+      "range": 0.1
+     },
+     {
+      "date": "2026-11-16",
+      "high": 206.1,
+      "high_time": "17:28",
+      "high_hour": 17,
+      "low": 204.9,
+      "low_time": "00:59",
+      "low_hour": 0,
+      "range": 1.2
+     }
+    ],
+    "weekly": [
+     {
+      "week": "2026-W46",
+      "high": 205.37,
+      "high_time": "周六 13:52",
+      "low": 205.27,
+      "low_time": "周日 17:50",
+      "range": 0.1
+     },
+     {
+      "week": "2026-W47",
+      "high": 206.1,
+      "high_time": "周一 17:28",
+      "low": 204.9,
+      "low_time": "周一 00:59",
+      "range": 1.2
+     }
+    ],
+    "high_hour_dist": {
+     "0": 1,
+     "13": 1,
+     "17": 1
+    },
+    "low_hour_dist": {
+     "0": 1,
+     "13": 1,
+     "17": 1
+    },
+    "high_dow_dist": {
+     "1": 1,
+     "6": 1
+    },
+    "low_dow_dist": {
+     "1": 1,
+     "7": 1
+    },
+    "top_high_time": {
+     "label": "13:00",
+     "count": 1
+    },
+    "top_low_time": {
+     "label": "13:00",
+     "count": 1
+    },
+    "top_high_week": {
+     "label": "周六",
+     "count": 1
+    },
+    "top_low_week": {
+     "label": "周日",
+     "count": 1
+    }
+   },
+   "hour_stats": {
+    "0": {
+     "avg": 205.21,
+     "min": 204.9,
+     "max": 205.37,
+     "count": 3
+    },
+    "1": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 2
+    },
+    "2": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 3
+    },
+    "3": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 2
+    },
+    "4": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 2
+    },
+    "5": {
+     "avg": 205.21,
+     "min": 204.9,
+     "max": 205.37,
+     "count": 3
+    },
+    "6": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 3
+    },
+    "7": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 2
+    },
+    "8": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 2
+    },
+    "9": {
+     "avg": 205.21,
+     "min": 204.9,
+     "max": 205.37,
+     "count": 3
+    },
+    "10": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 1
+    },
+    "13": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 2
+    },
+    "14": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 5
+    },
+    "17": {
+     "avg": 205.69,
+     "min": 205.27,
+     "max": 206.1,
+     "count": 2
+    },
+    "20": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 2
+    },
+    "23": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 3
+    }
+   },
+   "dow_stats": {
+    "1": {
+     "avg": 205.2,
+     "min": 204.9,
+     "max": 206.1,
+     "count": 4
+    },
+    "6": {
+     "avg": 205.37,
+     "min": 205.37,
+     "max": 205.37,
+     "count": 12
+    },
+    "7": {
+     "avg": 205.37,
+     "min": 205.27,
+     "max": 205.37,
+     "count": 24
+    }
+   },
+   "history": [
+    {
+     "ts": "2026-11-07 13:52:33",
+     "price": 208.37,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-07 13:57:36",
+     "price": 208.37,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:52:33",
+     "price": 205.37,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:57:36",
+     "price": 205.37,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-14 13:52:33",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 13:57:36",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:08:54",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:10:51",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:24:45",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:40:54",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:54:19",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:43:38",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:45:04",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:32:41",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:34:22",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:35:33",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:05:45",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:35:56",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:06:07",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:36:18",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:06:31",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:36:41",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:43:14",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:06:51",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:37:05",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:07:16",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:37:24",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:07:33",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:37:42",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:07:51",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:38:00",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:56:14",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:08:10",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:38:22",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:08:31",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:38:40",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:08:49",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:39:00",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 10:33:15",
+     "price": 205.37,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 17:50:42",
+     "price": 205.27,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 00:59:04",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 05:40:50",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 09:53:27",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 206.1,
+     "source": "3jiebanzhuan"
+    }
+   ]
+  },
+  {
+   "name": "江苏1区-文昌阁",
+   "group": "活跃老区",
+   "price": 204.9,
+   "change_1d": -0.6,
+   "change_7d": -0.78,
+   "sample_count": 39,
+   "volatility": {
+    "std": 0.72,
+    "daily_range_avg": 0.53,
+    "high": 207.68,
+    "low": 204.9
+   },
+   "extremes": {
+    "daily": [
+     {
+      "date": "2026-11-14",
+      "high": 207.68,
+      "high_time": "13:57",
+      "high_hour": 13,
+      "low": 207.68,
+      "low_time": "13:57",
+      "low_hour": 13,
+      "range": 0.0
+     },
+     {
+      "date": "2026-11-15",
+      "high": 207.68,
+      "high_time": "00:05",
+      "high_hour": 0,
+      "low": 206.68,
+      "low_time": "17:50",
+      "low_hour": 17,
+      "range": 1.0
+     },
+     {
+      "date": "2026-11-16",
+      "high": 205.5,
+      "high_time": "00:59",
+      "high_hour": 0,
+      "low": 204.9,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 0.6
+     }
+    ],
+    "weekly": [
+     {
+      "week": "2026-W46",
+      "high": 207.68,
+      "high_time": "周六 13:57",
+      "low": 206.68,
+      "low_time": "周日 17:50",
+      "range": 1.0
+     },
+     {
+      "week": "2026-W47",
+      "high": 205.5,
+      "high_time": "周一 00:59",
+      "low": 204.9,
+      "low_time": "周一 17:28",
+      "range": 0.6
+     }
+    ],
+    "high_hour_dist": {
+     "0": 2,
+     "13": 1
+    },
+    "low_hour_dist": {
+     "13": 1,
+     "17": 2
+    },
+    "high_dow_dist": {
+     "1": 1,
+     "6": 1
+    },
+    "low_dow_dist": {
+     "1": 1,
+     "7": 1
+    },
+    "top_high_time": {
+     "label": "00:00",
+     "count": 2
+    },
+    "top_low_time": {
+     "label": "17:00",
+     "count": 2
+    },
+    "top_high_week": {
+     "label": "周六",
+     "count": 1
+    },
+    "top_low_week": {
+     "label": "周日",
+     "count": 1
+    }
+   },
+   "hour_stats": {
+    "0": {
+     "avg": 206.95,
+     "min": 205.5,
+     "max": 207.68,
+     "count": 3
+    },
+    "1": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 2
+    },
+    "2": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 3
+    },
+    "3": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 2
+    },
+    "4": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 2
+    },
+    "5": {
+     "avg": 206.95,
+     "min": 205.5,
+     "max": 207.68,
+     "count": 3
+    },
+    "6": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 3
+    },
+    "7": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 2
+    },
+    "8": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 2
+    },
+    "9": {
+     "avg": 206.95,
+     "min": 205.5,
+     "max": 207.68,
+     "count": 3
+    },
+    "10": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 1
+    },
+    "13": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 1
+    },
+    "14": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 5
+    },
+    "17": {
+     "avg": 205.79,
+     "min": 204.9,
+     "max": 206.68,
+     "count": 2
+    },
+    "20": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 2
+    },
+    "23": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 3
+    }
+   },
+   "dow_stats": {
+    "1": {
+     "avg": 205.35,
+     "min": 204.9,
+     "max": 205.5,
+     "count": 4
+    },
+    "6": {
+     "avg": 207.68,
+     "min": 207.68,
+     "max": 207.68,
+     "count": 11
+    },
+    "7": {
+     "avg": 207.64,
+     "min": 206.68,
+     "max": 207.68,
+     "count": 24
+    }
+   },
+   "history": [
+    {
+     "ts": "2026-11-07 13:57:36",
+     "price": 208.68,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-13 13:57:36",
+     "price": 207.48,
+     "source": "backfill"
+    },
+    {
+     "ts": "2026-11-14 13:57:36",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:08:54",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:10:51",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:24:45",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:40:54",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 14:54:19",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:43:38",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 20:45:04",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:32:41",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:34:22",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-14 23:35:33",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:05:45",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 00:35:56",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:06:07",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 01:36:18",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:06:31",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:36:41",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 02:43:14",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:06:51",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 03:37:05",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:07:16",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 04:37:24",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:07:33",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 05:37:42",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:07:51",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:38:00",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 06:56:14",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:08:10",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 07:38:22",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:08:31",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 08:38:40",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:08:49",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 09:39:00",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 10:33:15",
+     "price": 207.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-15 17:50:42",
+     "price": 206.68,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 00:59:04",
+     "price": 205.5,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 05:40:50",
+     "price": 205.5,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 09:53:27",
+     "price": 205.5,
+     "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -8167,9 +8265,9 @@
    "name": "北京1区-恭王府",
    "group": "活跃老区",
    "price": 201.9,
-   "change_1d": -0.02,
-   "change_7d": -0.22,
-   "sample_count": 39,
+   "change_1d": 0.0,
+   "change_7d": -1.22,
+   "sample_count": 40,
    "volatility": {
     "std": 0.17,
     "daily_range_avg": 0.37,
@@ -8341,10 +8439,10 @@
      "count": 5
     },
     "17": {
-     "avg": 203.02,
-     "min": 203.02,
+     "avg": 202.46,
+     "min": 201.9,
      "max": 203.02,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 201.92,
@@ -8364,7 +8462,7 @@
      "avg": 201.9,
      "min": 201.9,
      "max": 201.9,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 201.92,
@@ -8594,20 +8692,25 @@
      "ts": "2026-11-16 09:53:27",
      "price": 201.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 201.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "江苏1区-雨花台",
    "group": "活跃老区",
-   "price": 198.9,
-   "change_1d": 0.56,
-   "change_7d": -3.24,
-   "sample_count": 39,
+   "price": 200.1,
+   "change_1d": 1.2,
+   "change_7d": -1.14,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.2,
-    "daily_range_avg": 0.3,
-    "high": 199.24,
+    "std": 0.33,
+    "daily_range_avg": 0.7,
+    "high": 200.1,
     "low": 198.34
    },
    "extremes": {
@@ -8634,13 +8737,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 198.9,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 200.1,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 198.9,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 1.2
      }
     ],
     "weekly": [
@@ -8654,17 +8757,16 @@
      },
      {
       "week": "2026-W47",
-      "high": 198.9,
-      "high_time": "周一 00:59",
+      "high": 200.1,
+      "high_time": "周一 17:28",
       "low": 198.9,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 1.2
      }
     ],
     "high_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "low_hour_dist": {
      "0": 2,
@@ -8679,8 +8781,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_low_time": {
      "label": "00:00",
@@ -8775,10 +8877,10 @@
      "count": 5
     },
     "17": {
-     "avg": 199.24,
+     "avg": 199.67,
      "min": 199.24,
-     "max": 199.24,
-     "count": 1
+     "max": 200.1,
+     "count": 2
     },
     "20": {
      "avg": 198.34,
@@ -8795,10 +8897,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 198.9,
+     "avg": 199.2,
      "min": 198.9,
-     "max": 198.9,
-     "count": 3
+     "max": 200.1,
+     "count": 4
     },
     "6": {
      "avg": 198.34,
@@ -9028,19 +9130,24 @@
      "ts": "2026-11-16 09:53:27",
      "price": 198.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 200.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "北京2区-金銮殿",
    "group": "人气新区",
-   "price": 552.0,
-   "change_1d": -12.87,
-   "change_7d": -88.57,
-   "sample_count": 38,
+   "price": 544.5,
+   "change_1d": -7.5,
+   "change_7d": -47.47,
+   "sample_count": 39,
    "volatility": {
-    "std": 5.17,
-    "daily_range_avg": 8.33,
+    "std": 5.9,
+    "daily_range_avg": 10.83,
     "high": 564.87,
     "low": 539.87
    },
@@ -9071,10 +9178,10 @@
       "high": 552.0,
       "high_time": "00:59",
       "high_hour": 0,
-      "low": 552.0,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
+      "low": 544.5,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 7.5
      }
     ],
     "weekly": [
@@ -9090,9 +9197,9 @@
       "week": "2026-W47",
       "high": 552.0,
       "high_time": "周一 00:59",
-      "low": 552.0,
-      "low_time": "周一 00:59",
-      "range": 0.0
+      "low": 544.5,
+      "low_time": "周一 17:28",
+      "range": 7.5
      }
     ],
     "high_hour_dist": {
@@ -9100,9 +9207,8 @@
      "13": 1
     },
     "low_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "high_dow_dist": {
      "1": 1,
@@ -9117,8 +9223,8 @@
      "count": 2
     },
     "top_low_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_high_week": {
      "label": "周六",
@@ -9209,10 +9315,10 @@
      "count": 5
     },
     "17": {
-     "avg": 539.87,
+     "avg": 542.18,
      "min": 539.87,
-     "max": 539.87,
-     "count": 1
+     "max": 544.5,
+     "count": 2
     },
     "20": {
      "avg": 564.87,
@@ -9229,10 +9335,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 552.0,
-     "min": 552.0,
+     "avg": 550.12,
+     "min": 544.5,
      "max": 552.0,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 564.87,
@@ -9447,6 +9553,11 @@
      "ts": "2026-11-16 09:53:27",
      "price": 552.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 544.5,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -9454,11 +9565,11 @@
    "name": "浙江3区-明月几时",
    "group": "人气新区",
    "price": 399.0,
-   "change_1d": -8.29,
-   "change_7d": -25.39,
-   "sample_count": 38,
+   "change_1d": 0.0,
+   "change_7d": -12.09,
+   "sample_count": 39,
    "volatility": {
-    "std": 2.35,
+    "std": 2.61,
     "daily_range_avg": 1.77,
     "high": 407.29,
     "low": 399.0
@@ -9628,10 +9739,10 @@
      "count": 5
     },
     "17": {
-     "avg": 401.99,
-     "min": 401.99,
+     "avg": 400.5,
+     "min": 399.0,
      "max": 401.99,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 407.29,
@@ -9651,7 +9762,7 @@
      "avg": 399.0,
      "min": 399.0,
      "max": 399.0,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 407.29,
@@ -9866,21 +9977,26 @@
      "ts": "2026-11-16 09:53:27",
      "price": 399.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 399.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "名扬三界-一叶知秋",
    "group": "人气新区",
-   "price": 396.0,
-   "change_1d": -1.62,
-   "change_7d": -44.42,
-   "sample_count": 38,
+   "price": 390.0,
+   "change_1d": -6.0,
+   "change_7d": -36.42,
+   "sample_count": 39,
    "volatility": {
-    "std": 0.53,
-    "daily_range_avg": 0.6,
+    "std": 1.3,
+    "daily_range_avg": 2.6,
     "high": 399.42,
-    "low": 396.0
+    "low": 390.0
    },
    "extremes": {
     "daily": [
@@ -9909,10 +10025,10 @@
       "high": 396.0,
       "high_time": "00:59",
       "high_hour": 0,
-      "low": 396.0,
-      "low_time": "00:59",
-      "low_hour": 0,
-      "range": 0.0
+      "low": 390.0,
+      "low_time": "17:28",
+      "low_hour": 17,
+      "range": 6.0
      }
     ],
     "weekly": [
@@ -9928,9 +10044,9 @@
       "week": "2026-W47",
       "high": 396.0,
       "high_time": "周一 00:59",
-      "low": 396.0,
-      "low_time": "周一 00:59",
-      "range": 0.0
+      "low": 390.0,
+      "low_time": "周一 17:28",
+      "range": 6.0
      }
     ],
     "high_hour_dist": {
@@ -9939,8 +10055,9 @@
      "17": 1
     },
     "low_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "high_dow_dist": {
      "1": 1,
@@ -9955,8 +10072,8 @@
      "count": 1
     },
     "top_low_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_high_week": {
      "label": "周日",
@@ -10047,10 +10164,10 @@
      "count": 5
     },
     "17": {
-     "avg": 399.42,
-     "min": 399.42,
+     "avg": 394.71,
+     "min": 390.0,
      "max": 399.42,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 397.62,
@@ -10067,10 +10184,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 396.0,
-     "min": 396.0,
+     "avg": 394.5,
+     "min": 390.0,
      "max": 396.0,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 397.62,
@@ -10285,20 +10402,25 @@
      "ts": "2026-11-16 09:53:27",
      "price": 396.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 390.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "星辰大海-仙剑情缘",
    "group": "人气新区",
-   "price": 337.2,
-   "change_1d": 1.24,
-   "change_7d": -37.76,
-   "sample_count": 38,
+   "price": 339.9,
+   "change_1d": 2.7,
+   "change_7d": -35.06,
+   "sample_count": 39,
    "volatility": {
-    "std": 1.14,
-    "daily_range_avg": 2.23,
-    "high": 337.2,
+    "std": 1.29,
+    "daily_range_avg": 3.13,
+    "high": 339.9,
     "low": 329.26
    },
    "extremes": {
@@ -10325,13 +10447,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 337.2,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 339.9,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 337.2,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 2.7
      }
     ],
     "weekly": [
@@ -10345,16 +10467,17 @@
      },
      {
       "week": "2026-W47",
-      "high": 337.2,
-      "high_time": "周一 00:59",
+      "high": 339.9,
+      "high_time": "周一 17:28",
       "low": 337.2,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 2.7
      }
     ],
     "high_hour_dist": {
-     "0": 2,
-     "13": 1
+     "0": 1,
+     "13": 1,
+     "17": 1
     },
     "low_hour_dist": {
      "0": 1,
@@ -10370,8 +10493,8 @@
      "7": 1
     },
     "top_high_time": {
-     "label": "00:00",
-     "count": 2
+     "label": "13:00",
+     "count": 1
     },
     "top_low_time": {
      "label": "13:00",
@@ -10466,10 +10589,10 @@
      "count": 5
     },
     "17": {
-     "avg": 329.26,
+     "avg": 334.58,
      "min": 329.26,
-     "max": 329.26,
-     "count": 1
+     "max": 339.9,
+     "count": 2
     },
     "20": {
      "avg": 335.96,
@@ -10486,10 +10609,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 337.2,
+     "avg": 337.88,
      "min": 337.2,
-     "max": 337.2,
-     "count": 3
+     "max": 339.9,
+     "count": 4
     },
     "6": {
      "avg": 335.96,
@@ -10704,6 +10827,11 @@
      "ts": "2026-11-16 09:53:27",
      "price": 337.2,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 339.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -10711,11 +10839,11 @@
    "name": "江苏2区-姑苏城",
    "group": "人气新区",
    "price": 217.8,
-   "change_1d": -0.7,
-   "change_7d": -4.8,
-   "sample_count": 39,
+   "change_1d": 0.0,
+   "change_7d": -3.7,
+   "sample_count": 40,
    "volatility": {
-    "std": 0.19,
+    "std": 0.22,
     "daily_range_avg": 0.13,
     "high": 218.5,
     "low": 217.8
@@ -10885,10 +11013,10 @@
      "count": 5
     },
     "17": {
-     "avg": 218.1,
-     "min": 218.1,
+     "avg": 217.95,
+     "min": 217.8,
      "max": 218.1,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 218.5,
@@ -10908,7 +11036,7 @@
      "avg": 217.8,
      "min": 217.8,
      "max": 217.8,
-     "count": 3
+     "count": 4
     },
     "6": {
      "avg": 218.5,
@@ -11138,19 +11266,24 @@
      "ts": "2026-11-16 09:53:27",
      "price": 217.8,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 217.8,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "河北2区-燕赵风云",
    "group": "人气新区",
-   "price": 215.1,
-   "change_1d": -0.44,
-   "change_7d": -3.54,
-   "sample_count": 39,
+   "price": 215.4,
+   "change_1d": 0.3,
+   "change_7d": -3.24,
+   "sample_count": 40,
    "volatility": {
     "std": 0.12,
-    "daily_range_avg": 0.03,
+    "daily_range_avg": 0.13,
     "high": 215.64,
     "low": 215.1
    },
@@ -11178,13 +11311,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 215.1,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 215.4,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 215.1,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 0.3
      }
     ],
     "weekly": [
@@ -11198,17 +11331,16 @@
      },
      {
       "week": "2026-W47",
-      "high": 215.1,
-      "high_time": "周一 00:59",
+      "high": 215.4,
+      "high_time": "周一 17:28",
       "low": 215.1,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 0.3
      }
     ],
     "high_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "low_hour_dist": {
      "0": 2,
@@ -11223,8 +11355,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_low_time": {
      "label": "00:00",
@@ -11319,10 +11451,10 @@
      "count": 5
     },
     "17": {
-     "avg": 215.64,
-     "min": 215.64,
+     "avg": 215.52,
+     "min": 215.4,
      "max": 215.64,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 215.54,
@@ -11339,10 +11471,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 215.1,
+     "avg": 215.18,
      "min": 215.1,
-     "max": 215.1,
-     "count": 3
+     "max": 215.4,
+     "count": 4
     },
     "6": {
      "avg": 215.54,
@@ -11572,19 +11704,24 @@
      "ts": "2026-11-16 09:53:27",
      "price": 215.1,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 215.4,
+     "source": "3jiebanzhuan"
     }
    ]
   },
   {
    "name": "山河社稷-大唐官府",
    "group": "人气新区",
-   "price": 207.9,
-   "change_1d": -1.45,
-   "change_7d": -5.45,
-   "sample_count": 39,
+   "price": 209.7,
+   "change_1d": 1.8,
+   "change_7d": -3.55,
+   "sample_count": 40,
    "volatility": {
     "std": 0.42,
-    "daily_range_avg": 0.3,
+    "daily_range_avg": 0.9,
     "high": 210.25,
     "low": 207.9
    },
@@ -11612,13 +11749,13 @@
      },
      {
       "date": "2026-11-16",
-      "high": 207.9,
-      "high_time": "00:59",
-      "high_hour": 0,
+      "high": 209.7,
+      "high_time": "17:28",
+      "high_hour": 17,
       "low": 207.9,
       "low_time": "00:59",
       "low_hour": 0,
-      "range": 0.0
+      "range": 1.8
      }
     ],
     "weekly": [
@@ -11632,17 +11769,16 @@
      },
      {
       "week": "2026-W47",
-      "high": 207.9,
-      "high_time": "周一 00:59",
+      "high": 209.7,
+      "high_time": "周一 17:28",
       "low": 207.9,
       "low_time": "周一 00:59",
-      "range": 0.0
+      "range": 1.8
      }
     ],
     "high_hour_dist": {
-     "0": 1,
      "13": 1,
-     "17": 1
+     "17": 2
     },
     "low_hour_dist": {
      "0": 2,
@@ -11657,8 +11793,8 @@
      "6": 1
     },
     "top_high_time": {
-     "label": "13:00",
-     "count": 1
+     "label": "17:00",
+     "count": 2
     },
     "top_low_time": {
      "label": "00:00",
@@ -11753,10 +11889,10 @@
      "count": 5
     },
     "17": {
-     "avg": 210.25,
-     "min": 210.25,
+     "avg": 209.97,
+     "min": 209.7,
      "max": 210.25,
-     "count": 1
+     "count": 2
     },
     "20": {
      "avg": 209.35,
@@ -11773,10 +11909,10 @@
    },
    "dow_stats": {
     "1": {
-     "avg": 207.9,
+     "avg": 208.35,
      "min": 207.9,
-     "max": 207.9,
-     "count": 3
+     "max": 209.7,
+     "count": 4
     },
     "6": {
      "avg": 209.35,
@@ -12006,17 +12142,22 @@
      "ts": "2026-11-16 09:53:27",
      "price": 207.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-16 17:28:47",
+     "price": 209.7,
+     "source": "3jiebanzhuan"
     }
    ]
   }
  ],
  "insights": {
   "note": "时段结论至少需要 3~7 天持续采集才稳定",
-  "price_peak_hour": "全市场 01:00 前后相对最高（+0.05%）",
-  "price_trough_hour": "全市场 17:00 前后相对最低（-0.23%）",
+  "price_peak_hour": "全市场 01:00 前后相对最高（+0.06%）",
+  "price_trough_hour": "全市场 17:00 前后相对最低（-0.28%）",
   "price_peak_dow": "周六 相对最高（+0.05%）",
-  "price_trough_dow": "周一 相对最低（-0.47%）",
-  "daily_high_time": "日高点最常出现在 00:00（2 天）",
+  "price_trough_dow": "周一 相对最低（-0.43%）",
+  "daily_high_time": "日高点最常出现在 13:00（1 天）",
   "daily_low_time": "日低点最常出现在 13:00（1 天）",
   "weekly_high_time": "周高点最常出现在周六（1 周）",
   "weekly_low_time": "周低点最常出现在周日（1 周）"
