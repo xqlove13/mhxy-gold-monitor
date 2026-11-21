@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-21 20:57:45",
- "total_snapshots": 1599,
- "real_snapshots": 1505,
+ "updated_at": "2026-11-22 04:02:09",
+ "total_snapshots": 1626,
+ "real_snapshots": 1532,
  "market": {
   "old_avg_price": 205.77,
   "avg_change_1d": -0.11,
@@ -233,6 +233,10 @@
    {
     "ts": "2026-11-21 20:57:45",
     "old_avg": 205.77
+   },
+   {
+    "ts": "2026-11-22 04:02:09",
+    "old_avg": 205.77
    }
   ],
   "extremes": {
@@ -381,161 +385,161 @@
   "hour_dev": {
    "0": {
     "avg": -0.11,
-    "min": -2.52,
-    "max": 0.55,
+    "min": -2.62,
+    "max": 0.58,
     "count": 81
    },
    "1": {
     "avg": 0.11,
     "min": -2.13,
-    "max": 5.61,
+    "max": 5.52,
     "count": 81
    },
    "2": {
-    "avg": 0.02,
+    "avg": 0.01,
     "min": -4.04,
-    "max": 6.35,
+    "max": 6.25,
     "count": 108
    },
    "3": {
     "avg": -0.08,
-    "min": -3.85,
-    "max": 2.67,
+    "min": -3.95,
+    "max": 2.59,
     "count": 108
    },
    "4": {
-    "avg": 0.02,
-    "min": -2.75,
-    "max": 3.25,
-    "count": 81
+    "avg": 0.07,
+    "min": -2.83,
+    "max": 5.63,
+    "count": 108
    },
    "5": {
     "avg": -0.11,
-    "min": -2.52,
-    "max": 0.55,
+    "min": -2.62,
+    "max": 0.58,
     "count": 81
    },
    "6": {
     "avg": 0.06,
-    "min": -1.13,
-    "max": 0.55,
+    "min": -1.21,
+    "max": 0.58,
     "count": 81
    },
    "7": {
     "avg": 0.11,
     "min": -2.13,
-    "max": 5.61,
+    "max": 5.52,
     "count": 81
    },
    "8": {
-    "avg": 0.0,
+    "avg": -0.0,
     "min": -4.04,
-    "max": 6.35,
+    "max": 6.25,
     "count": 81
    },
    "9": {
     "avg": -0.11,
-    "min": -2.52,
-    "max": 2.67,
+    "min": -2.62,
+    "max": 2.59,
     "count": 108
    },
    "10": {
     "avg": -0.11,
-    "min": -3.85,
-    "max": 3.25,
+    "min": -3.95,
+    "max": 3.14,
     "count": 81
    },
    "12": {
-    "avg": 0.25,
-    "min": -2.48,
-    "max": 5.74,
+    "avg": 0.24,
+    "min": -2.44,
+    "max": 5.63,
     "count": 27
    },
    "13": {
     "avg": 0.12,
-    "min": -1.13,
-    "max": 0.55,
+    "min": -1.21,
+    "max": 0.58,
     "count": 47
    },
    "14": {
     "avg": 0.06,
-    "min": -1.13,
-    "max": 0.55,
+    "min": -1.21,
+    "max": 0.58,
     "count": 135
    },
    "16": {
     "avg": 0.2,
     "min": -2.13,
-    "max": 5.61,
+    "max": 5.52,
     "count": 27
    },
    "17": {
     "avg": -0.22,
-    "min": -4.67,
-    "max": 6.35,
+    "min": -4.76,
+    "max": 6.25,
     "count": 81
    },
    "19": {
-    "avg": -0.09,
-    "min": -2.75,
-    "max": 3.25,
+    "avg": -0.1,
+    "min": -2.83,
+    "max": 3.14,
     "count": 54
    },
    "20": {
-    "avg": 0.13,
-    "min": -2.48,
-    "max": 5.74,
+    "avg": 0.12,
+    "min": -2.44,
+    "max": 5.63,
     "count": 81
    },
    "23": {
     "avg": 0.06,
-    "min": -1.13,
-    "max": 0.55,
+    "min": -1.21,
+    "max": 0.58,
     "count": 81
    }
   },
   "dow_dev": {
    "1": {
     "avg": -0.42,
-    "min": -3.85,
+    "min": -3.95,
     "max": 0.67,
     "count": 108
    },
    "2": {
     "avg": -0.24,
-    "min": -3.85,
-    "max": 3.25,
+    "min": -3.95,
+    "max": 3.14,
     "count": 81
    },
    "3": {
-    "avg": -0.08,
-    "min": -2.75,
-    "max": 3.25,
+    "avg": -0.09,
+    "min": -2.83,
+    "max": 3.14,
     "count": 81
    },
    "4": {
     "avg": -0.12,
     "min": -4.04,
-    "max": 6.35,
+    "max": 6.25,
     "count": 81
    },
    "5": {
-    "avg": -0.01,
+    "avg": -0.02,
     "min": -4.04,
-    "max": 6.35,
+    "max": 6.25,
     "count": 81
    },
    "6": {
     "avg": 0.11,
-    "min": -2.48,
-    "max": 5.74,
+    "min": -2.44,
+    "max": 5.63,
     "count": 425
    },
    "7": {
-    "avg": 0.05,
-    "min": -4.67,
-    "max": 1.03,
-    "count": 648
+    "avg": 0.06,
+    "min": -4.76,
+    "max": 5.63,
+    "count": 675
    }
   },
   "top_movers": [
@@ -573,9 +577,9 @@
    "price": 210.0,
    "change_1d": -2.7,
    "change_7d": -4.81,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 1.09,
+    "std": 1.21,
     "daily_range_avg": 0.72,
     "high": 215.51,
     "low": 210.0
@@ -747,10 +751,10 @@
      "count": 4
     },
     "4": {
-     "avg": 214.71,
-     "min": 214.5,
+     "avg": 213.53,
+     "min": 210.0,
      "max": 214.81,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 214.51,
@@ -875,10 +879,10 @@
      "count": 16
     },
     "7": {
-     "avg": 214.84,
-     "min": 214.81,
+     "avg": 214.65,
+     "min": 210.0,
      "max": 215.51,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -1181,6 +1185,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 210.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 210.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -1190,9 +1199,9 @@
    "price": 209.7,
    "change_1d": 1.5,
    "change_7d": -2.29,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 1.87,
+    "std": 1.86,
     "daily_range_avg": 1.54,
     "high": 211.99,
     "low": 204.6
@@ -1367,10 +1376,10 @@
      "count": 4
     },
     "4": {
-     "avg": 211.23,
+     "avg": 210.84,
      "min": 209.7,
      "max": 211.99,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 211.33,
@@ -1495,10 +1504,10 @@
      "count": 16
     },
     "7": {
-     "avg": 211.99,
-     "min": 211.99,
+     "avg": 211.9,
+     "min": 209.7,
      "max": 211.99,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -1801,6 +1810,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 209.7,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 209.7,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -1810,9 +1824,9 @@
    "price": 209.7,
    "change_1d": 1.8,
    "change_7d": -2.26,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 1.56,
+    "std": 1.55,
     "daily_range_avg": 0.92,
     "high": 211.96,
     "low": 207.0
@@ -1986,10 +2000,10 @@
      "count": 4
     },
     "4": {
-     "avg": 211.21,
+     "avg": 210.83,
      "min": 209.7,
      "max": 211.96,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 211.31,
@@ -2114,10 +2128,10 @@
      "count": 16
     },
     "7": {
-     "avg": 211.94,
-     "min": 211.46,
+     "avg": 211.85,
+     "min": 209.7,
      "max": 211.96,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -2420,6 +2434,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 209.7,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 209.7,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -2429,7 +2448,7 @@
    "price": 209.1,
    "change_1d": 0.0,
    "change_7d": -1.28,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
     "std": 0.69,
     "daily_range_avg": 0.55,
@@ -2605,10 +2624,10 @@
      "count": 4
     },
     "4": {
-     "avg": 210.05,
-     "min": 209.4,
+     "avg": 209.81,
+     "min": 209.1,
      "max": 210.38,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 210.25,
@@ -2733,10 +2752,10 @@
      "count": 16
     },
     "7": {
-     "avg": 210.36,
-     "min": 209.88,
+     "avg": 210.31,
+     "min": 209.1,
      "max": 210.38,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -3039,6 +3058,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 209.1,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 209.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -3048,9 +3072,9 @@
    "price": 207.0,
    "change_1d": 0.0,
    "change_7d": 0.37,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 2.03,
+    "std": 2.01,
     "daily_range_avg": 2.85,
     "high": 207.9,
     "low": 198.0
@@ -3225,10 +3249,10 @@
      "count": 4
     },
     "4": {
-     "avg": 206.75,
+     "avg": 206.81,
      "min": 206.63,
      "max": 207.0,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 206.75,
@@ -3353,10 +3377,10 @@
      "count": 16
     },
     "7": {
-     "avg": 206.55,
+     "avg": 206.57,
      "min": 204.83,
-     "max": 206.63,
-     "count": 24
+     "max": 207.0,
+     "count": 25
     }
    },
    "history": [
@@ -3659,6 +3683,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 207.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 207.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -3668,9 +3697,9 @@
    "price": 204.9,
    "change_1d": 0.0,
    "change_7d": -0.36,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 0.45,
+    "std": 0.44,
     "daily_range_avg": 0.7,
     "high": 206.36,
     "low": 204.0
@@ -3843,10 +3872,10 @@
      "count": 4
     },
     "4": {
-     "avg": 205.44,
-     "min": 205.26,
+     "avg": 205.31,
+     "min": 204.9,
      "max": 205.8,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 205.04,
@@ -3971,10 +4000,10 @@
      "count": 16
     },
     "7": {
-     "avg": 205.31,
-     "min": 205.26,
+     "avg": 205.29,
+     "min": 204.9,
      "max": 206.36,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -4277,6 +4306,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 204.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -4286,9 +4320,9 @@
    "price": 204.9,
    "change_1d": -0.3,
    "change_7d": -4.37,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 1.8,
+    "std": 1.83,
     "daily_range_avg": 0.99,
     "high": 210.27,
     "low": 204.0
@@ -4463,10 +4497,10 @@
      "count": 4
     },
     "4": {
-     "avg": 208.11,
-     "min": 205.8,
+     "avg": 207.31,
+     "min": 204.9,
      "max": 209.27,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 209.11,
@@ -4591,10 +4625,10 @@
      "count": 16
     },
     "7": {
-     "avg": 209.31,
-     "min": 209.27,
+     "avg": 209.14,
+     "min": 204.9,
      "max": 210.27,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -4897,6 +4931,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 204.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -4906,7 +4945,7 @@
    "price": 204.9,
    "change_1d": 0.3,
    "change_7d": 1.58,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
     "std": 0.84,
     "daily_range_avg": 0.66,
@@ -5082,10 +5121,10 @@
      "count": 4
     },
     "4": {
-     "avg": 203.95,
+     "avg": 204.19,
      "min": 203.32,
      "max": 205.2,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 203.55,
@@ -5210,10 +5249,10 @@
      "count": 16
     },
     "7": {
-     "avg": 203.4,
+     "avg": 203.46,
      "min": 203.32,
      "max": 205.32,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -5516,6 +5555,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 204.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 204.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -5525,7 +5569,7 @@
    "price": 204.0,
    "change_1d": 0.0,
    "change_7d": -2.71,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
     "std": 1.71,
     "daily_range_avg": 0.93,
@@ -5702,10 +5746,10 @@
      "count": 4
     },
     "4": {
-     "avg": 205.01,
+     "avg": 204.75,
      "min": 201.6,
      "max": 206.71,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 206.51,
@@ -5830,10 +5874,10 @@
      "count": 16
     },
     "7": {
-     "avg": 206.69,
-     "min": 206.21,
+     "avg": 206.58,
+     "min": 204.0,
      "max": 206.71,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -6136,6 +6180,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 204.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 204.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -6145,9 +6194,9 @@
    "price": 198.6,
    "change_1d": -2.1,
    "change_7d": -6.15,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 1.77,
+    "std": 1.87,
     "daily_range_avg": 1.1,
     "high": 204.75,
     "low": 198.6
@@ -6322,10 +6371,10 @@
      "count": 4
     },
     "4": {
-     "avg": 204.4,
-     "min": 203.7,
+     "avg": 202.95,
+     "min": 198.6,
      "max": 204.75,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 203.2,
@@ -6450,10 +6499,10 @@
      "count": 16
     },
     "7": {
-     "avg": 204.75,
-     "min": 204.65,
+     "avg": 204.5,
+     "min": 198.6,
      "max": 204.75,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -6756,6 +6805,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 198.6,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 198.6,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -6765,9 +6819,9 @@
    "price": 211.49,
    "change_1d": 4.49,
    "change_7d": 4.4,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 0.99,
+    "std": 1.14,
     "daily_range_avg": 1.11,
     "high": 211.49,
     "low": 204.9
@@ -6942,10 +6996,10 @@
      "count": 4
     },
     "4": {
-     "avg": 207.36,
+     "avg": 208.39,
      "min": 207.09,
-     "max": 207.9,
-     "count": 3
+     "max": 211.49,
+     "count": 4
     },
     "5": {
      "avg": 206.36,
@@ -7070,10 +7124,10 @@
      "count": 16
     },
     "7": {
-     "avg": 207.07,
+     "avg": 207.25,
      "min": 206.59,
-     "max": 207.09,
-     "count": 24
+     "max": 211.49,
+     "count": 25
     }
    },
    "history": [
@@ -7376,6 +7430,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 211.49,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 211.49,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -7385,7 +7444,7 @@
    "price": 209.4,
    "change_1d": 1.5,
    "change_7d": -0.89,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
     "std": 0.68,
     "daily_range_avg": 0.82,
@@ -7561,10 +7620,10 @@
      "count": 4
     },
     "4": {
-     "avg": 210.29,
-     "min": 210.29,
+     "avg": 210.07,
+     "min": 209.4,
      "max": 210.3,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 209.79,
@@ -7689,10 +7748,10 @@
      "count": 16
     },
     "7": {
-     "avg": 210.29,
-     "min": 210.29,
+     "avg": 210.25,
+     "min": 209.4,
      "max": 210.29,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -7995,6 +8054,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 209.4,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 209.4,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -8004,9 +8068,9 @@
    "price": 207.9,
    "change_1d": -1.2,
    "change_7d": -1.12,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 0.43,
+    "std": 0.45,
     "daily_range_avg": 0.68,
     "high": 210.0,
     "low": 207.9
@@ -8181,10 +8245,10 @@
      "count": 4
     },
     "4": {
-     "avg": 209.35,
-     "min": 209.02,
+     "avg": 208.99,
+     "min": 207.9,
      "max": 210.0,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 208.85,
@@ -8309,10 +8373,10 @@
      "count": 16
     },
     "7": {
-     "avg": 209.02,
-     "min": 209.02,
+     "avg": 208.98,
+     "min": 207.9,
      "max": 209.02,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -8615,6 +8679,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 207.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 207.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -8624,9 +8693,9 @@
    "price": 207.6,
    "change_1d": -0.3,
    "change_7d": -0.08,
-   "sample_count": 55,
+   "sample_count": 56,
    "volatility": {
-    "std": 0.8,
+    "std": 0.79,
     "daily_range_avg": 0.84,
     "high": 207.9,
     "low": 204.9
@@ -8800,10 +8869,10 @@
      "count": 4
     },
     "4": {
-     "avg": 207.75,
-     "min": 207.68,
+     "avg": 207.72,
+     "min": 207.6,
      "max": 207.9,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 206.95,
@@ -8931,7 +9000,7 @@
      "avg": 207.64,
      "min": 206.68,
      "max": 207.68,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -9219,6 +9288,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 207.6,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 207.6,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -9228,7 +9302,7 @@
    "price": 206.1,
    "change_1d": 0.0,
    "change_7d": 0.19,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
     "std": 0.47,
     "daily_range_avg": 0.92,
@@ -9405,10 +9479,10 @@
      "count": 4
     },
     "4": {
-     "avg": 205.87,
+     "avg": 205.93,
      "min": 205.8,
-     "max": 205.91,
-     "count": 3
+     "max": 206.1,
+     "count": 4
     },
     "5": {
      "avg": 205.57,
@@ -9533,10 +9607,10 @@
      "count": 16
     },
     "7": {
-     "avg": 205.88,
+     "avg": 205.89,
      "min": 205.11,
-     "max": 205.91,
-     "count": 24
+     "max": 206.1,
+     "count": 25
     }
    },
    "history": [
@@ -9839,6 +9913,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 206.1,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 206.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -9848,7 +9927,7 @@
    "price": 206.1,
    "change_1d": -0.6,
    "change_7d": -0.16,
-   "sample_count": 55,
+   "sample_count": 56,
    "volatility": {
     "std": 0.32,
     "daily_range_avg": 0.4,
@@ -10025,10 +10104,10 @@
      "count": 4
     },
     "4": {
-     "avg": 206.21,
+     "avg": 206.18,
      "min": 206.1,
      "max": 206.26,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 206.51,
@@ -10156,7 +10235,7 @@
      "avg": 206.21,
      "min": 205.16,
      "max": 206.26,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -10444,6 +10523,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 206.1,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 206.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -10453,9 +10537,9 @@
    "price": 204.0,
    "change_1d": -3.0,
    "change_7d": -2.11,
-   "sample_count": 55,
+   "sample_count": 56,
    "volatility": {
-    "std": 0.61,
+    "std": 0.66,
     "daily_range_avg": 1.4,
     "high": 207.0,
     "low": 204.0
@@ -10630,10 +10714,10 @@
      "count": 4
     },
     "4": {
-     "avg": 205.71,
-     "min": 204.9,
+     "avg": 205.28,
+     "min": 204.0,
      "max": 206.11,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 206.01,
@@ -10758,10 +10842,10 @@
      "count": 15
     },
     "7": {
-     "avg": 206.07,
-     "min": 205.11,
+     "avg": 205.99,
+     "min": 204.0,
      "max": 206.11,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -11049,6 +11133,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 204.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 204.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -11058,7 +11147,7 @@
    "price": 201.0,
    "change_1d": 0.9,
    "change_7d": -0.92,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
     "std": 0.62,
     "daily_range_avg": 0.7,
@@ -11234,10 +11323,10 @@
      "count": 4
     },
     "4": {
-     "avg": 201.81,
-     "min": 201.6,
+     "avg": 201.61,
+     "min": 201.0,
      "max": 201.92,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 201.91,
@@ -11362,10 +11451,10 @@
      "count": 16
     },
     "7": {
-     "avg": 201.97,
-     "min": 201.92,
+     "avg": 201.93,
+     "min": 201.0,
      "max": 203.02,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -11668,6 +11757,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 201.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 201.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -11677,9 +11771,9 @@
    "price": 200.4,
    "change_1d": -2.39,
    "change_7d": -4.97,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 1.1,
+    "std": 1.24,
     "daily_range_avg": 0.87,
     "high": 206.1,
     "low": 200.4
@@ -11853,10 +11947,10 @@
      "count": 4
     },
     "4": {
-     "avg": 205.21,
-     "min": 204.9,
+     "avg": 204.01,
+     "min": 200.4,
      "max": 205.37,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 205.21,
@@ -11981,10 +12075,10 @@
      "count": 16
     },
     "7": {
-     "avg": 205.37,
-     "min": 205.27,
+     "avg": 205.17,
+     "min": 200.4,
      "max": 205.37,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -12287,6 +12381,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 200.4,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 200.4,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -12296,7 +12395,7 @@
    "price": 198.6,
    "change_1d": 0.0,
    "change_7d": 0.26,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
     "std": 0.68,
     "daily_range_avg": 0.52,
@@ -12471,10 +12570,10 @@
      "count": 4
     },
     "4": {
-     "avg": 198.93,
+     "avg": 198.84,
      "min": 198.34,
      "max": 200.1,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 198.53,
@@ -12599,10 +12698,10 @@
      "count": 16
     },
     "7": {
-     "avg": 198.38,
+     "avg": 198.39,
      "min": 198.34,
      "max": 199.24,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -12905,6 +13004,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 198.6,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 198.6,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -12914,9 +13018,9 @@
    "price": 598.8,
    "change_1d": 5.4,
    "change_7d": 33.93,
-   "sample_count": 55,
+   "sample_count": 56,
    "volatility": {
-    "std": 12.21,
+    "std": 12.84,
     "daily_range_avg": 16.4,
     "high": 598.8,
     "low": 539.87
@@ -13089,10 +13193,10 @@
      "count": 4
     },
     "4": {
-     "avg": 571.48,
+     "avg": 578.31,
      "min": 564.87,
-     "max": 584.7,
-     "count": 3
+     "max": 598.8,
+     "count": 4
     },
     "5": {
      "avg": 560.58,
@@ -13217,10 +13321,10 @@
      "count": 15
     },
     "7": {
-     "avg": 563.83,
+     "avg": 565.23,
      "min": 539.87,
-     "max": 564.87,
-     "count": 24
+     "max": 598.8,
+     "count": 25
     }
    },
    "history": [
@@ -13508,6 +13612,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 598.8,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 598.8,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -13517,9 +13626,9 @@
    "price": 429.6,
    "change_1d": -2.4,
    "change_7d": 22.31,
-   "sample_count": 55,
+   "sample_count": 56,
    "volatility": {
-    "std": 10.3,
+    "std": 10.57,
     "daily_range_avg": 6.14,
     "high": 435.0,
     "low": 397.8
@@ -13695,10 +13804,10 @@
      "count": 4
     },
     "4": {
-     "avg": 404.13,
+     "avg": 410.5,
      "min": 397.8,
-     "max": 407.29,
-     "count": 3
+     "max": 429.6,
+     "count": 4
     },
     "5": {
      "avg": 404.53,
@@ -13823,10 +13932,10 @@
      "count": 15
     },
     "7": {
-     "avg": 407.07,
+     "avg": 407.97,
      "min": 401.99,
-     "max": 407.29,
-     "count": 24
+     "max": 429.6,
+     "count": 25
     }
    },
    "history": [
@@ -14114,6 +14223,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 429.6,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 429.6,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -14123,9 +14237,9 @@
    "price": 405.0,
    "change_1d": 3.6,
    "change_7d": 7.38,
-   "sample_count": 55,
+   "sample_count": 56,
    "volatility": {
-    "std": 3.95,
+    "std": 4.0,
     "daily_range_avg": 4.5,
     "high": 408.0,
     "low": 390.0
@@ -14300,10 +14414,10 @@
      "count": 4
     },
     "4": {
-     "avg": 400.58,
+     "avg": 401.69,
      "min": 397.62,
      "max": 406.5,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 397.08,
@@ -14428,10 +14542,10 @@
      "count": 15
     },
     "7": {
-     "avg": 397.69,
+     "avg": 397.99,
      "min": 397.62,
-     "max": 399.42,
-     "count": 24
+     "max": 405.0,
+     "count": 25
     }
    },
    "history": [
@@ -14719,6 +14833,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 405.0,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 405.0,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -14728,9 +14847,9 @@
    "price": 354.9,
    "change_1d": -2.1,
    "change_7d": 18.94,
-   "sample_count": 55,
+   "sample_count": 56,
    "volatility": {
-    "std": 7.57,
+    "std": 7.77,
     "daily_range_avg": 4.55,
     "high": 357.0,
     "low": 329.26
@@ -14906,10 +15025,10 @@
      "count": 4
     },
     "4": {
-     "avg": 335.97,
+     "avg": 340.7,
      "min": 335.96,
-     "max": 336.0,
-     "count": 3
+     "max": 354.9,
+     "count": 4
     },
     "5": {
      "avg": 336.37,
@@ -15034,10 +15153,10 @@
      "count": 15
     },
     "7": {
-     "avg": 335.68,
+     "avg": 336.45,
      "min": 329.26,
-     "max": 335.96,
-     "count": 24
+     "max": 354.9,
+     "count": 25
     }
    },
    "history": [
@@ -15325,6 +15444,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 354.9,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 354.9,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -15334,9 +15458,9 @@
    "price": 218.1,
    "change_1d": -0.9,
    "change_7d": -0.4,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 0.97,
+    "std": 0.96,
     "daily_range_avg": 1.21,
     "high": 219.0,
     "low": 215.1
@@ -15510,10 +15634,10 @@
      "count": 4
     },
     "4": {
-     "avg": 217.37,
+     "avg": 217.55,
      "min": 215.1,
      "max": 218.5,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 218.27,
@@ -15638,10 +15762,10 @@
      "count": 16
     },
     "7": {
-     "avg": 218.48,
+     "avg": 218.47,
      "min": 218.1,
      "max": 218.5,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -15944,6 +16068,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 218.1,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 218.1,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -15953,9 +16082,9 @@
    "price": 214.8,
    "change_1d": 4.2,
    "change_7d": -0.74,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 1.12,
+    "std": 1.11,
     "daily_range_avg": 1.4,
     "high": 216.0,
     "low": 210.6
@@ -16128,10 +16257,10 @@
      "count": 4
     },
     "4": {
-     "avg": 215.69,
-     "min": 215.54,
+     "avg": 215.47,
+     "min": 214.8,
      "max": 216.0,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 215.39,
@@ -16256,10 +16385,10 @@
      "count": 16
     },
     "7": {
-     "avg": 215.54,
-     "min": 215.54,
+     "avg": 215.51,
+     "min": 214.8,
      "max": 215.64,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -16562,6 +16691,11 @@
      "ts": "2026-11-21 20:57:45",
      "price": 214.8,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 214.8,
+     "source": "3jiebanzhuan"
     }
    ]
   },
@@ -16571,9 +16705,9 @@
    "price": 209.1,
    "change_1d": 0.0,
    "change_7d": -0.25,
-   "sample_count": 56,
+   "sample_count": 57,
    "volatility": {
-    "std": 0.4,
+    "std": 0.39,
     "daily_range_avg": 0.64,
     "high": 210.25,
     "low": 207.9
@@ -16747,10 +16881,10 @@
      "count": 4
     },
     "4": {
-     "avg": 209.17,
+     "avg": 209.15,
      "min": 208.8,
      "max": 209.35,
-     "count": 3
+     "count": 4
     },
     "5": {
      "avg": 208.87,
@@ -16875,10 +17009,10 @@
      "count": 16
     },
     "7": {
-     "avg": 209.39,
-     "min": 209.35,
+     "avg": 209.38,
+     "min": 209.1,
      "max": 210.25,
-     "count": 24
+     "count": 25
     }
    },
    "history": [
@@ -17181,13 +17315,18 @@
      "ts": "2026-11-21 20:57:45",
      "price": 209.1,
      "source": "3jiebanzhuan"
+    },
+    {
+     "ts": "2026-11-22 04:02:09",
+     "price": 209.1,
+     "source": "3jiebanzhuan"
     }
    ]
   }
  ],
  "insights": {
   "note": "时段结论至少需要 3~7 天持续采集才稳定",
-  "price_peak_hour": "全市场 12:00 前后相对最高（+0.25%）",
+  "price_peak_hour": "全市场 12:00 前后相对最高（+0.24%）",
   "price_trough_hour": "全市场 17:00 前后相对最低（-0.22%）",
   "price_peak_dow": "周六 相对最高（+0.11%）",
   "price_trough_dow": "周一 相对最低（-0.42%）",
